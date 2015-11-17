@@ -1,0 +1,1957 @@
+npv2 <- function(i, cf, t=seq(along=cf)) sum(cf/(1+i)^t)
+npv2
+irr2 <- function(cf) { uniroot(npv, c(0,1), cf=cf)$root }
+irr(cf)
+irr2(cf)
+irr2 <- function(cf) { uniroot(npv2, c(0,1), cf=cf)$root }
+irr2(cf)
+IRR(cf)
+IRR(cf) * 100
+(1087.94-1000)/1000*100
+cf <- c(-1000, 1087.94)
+IRR(cf) * 100
+irr2(cf) * 100
+irr
+(1399.59-1305)/1305*100
+cf <- c(-1000, -100, -5, -100, -100, 1399.59)
+irr2(cf) * 100
+IRR(cf) * 100
+cf <- c(-1000, -100, -5, -100, 0, 0, -100, 1399.59)
+irr2(cf) * 100
+IRR(cf) * 100
+63.62*15.7180
+(61.61*15.7180-63.62*15.7180)
+(61.61*15.7180-63.62*15.7180)/63.62*15.7180
+(1399.59-0)/1305
+(1399.59-0)/1305 - 1
+(61.61*15.7180-0)/1000 - 1
+(61.61*15.7180-63.62*15.7180)/(63.62*15.7180)
+(61.61*15.7180-1000)/1000
+(61.61*15.7180-1000)/1000 * (61.61*15.7180 - (61.61*15.7180+100) )/(61.61*15.7180+100)
+(61.61*15.7180-1000)/1000 * (64.23*17.3920 - (61.61*15.7180+100) )/(61.61*15.7180+100)
+(64.23*17.3920 - (61.61*15.7180+100) )/(61.61*15.7180+100)
+(63.10*17.3120 - (64.23*17.3920-5) )/(64.23*17.3920-5)
+63.10*17.3120
+64.23*17.3920-5
+(61.61*15.7180-1000)/1000 * (64.23*17.3920 - (61.61*15.7180+100) )/(61.61*15.7180+100) * (63.10*17.3120 - (64.23*17.3920-5) )/(64.23*17.3920-5)
+(68.56* 18.8840 - (63.10*17.3120+100) )/(63.10*17.3120+100)
+(61.61*15.7180-1000)/1000 * (64.23*17.3920 - (61.61*15.7180+100) )/(61.61*15.7180+100) * (63.10*17.3120 - (64.23*17.3920-5) )/(64.23*17.3920-5) * (68.56* 18.8840 - (63.10*17.3120+100) )/(63.10*17.3120+100)
+(68.8200* 20.3370 - (68.56* 18.8840+100) )/(68.56* 18.8840+100)
+(61.61*15.7180-1000)/1000 * (64.23*17.3920 - (61.61*15.7180+100) )/(61.61*15.7180+100) * (63.10*17.3120 - (64.23*17.3920-5) )/(64.23*17.3920-5) * (68.56* 18.8840 - (63.10*17.3120+100) )/(63.10*17.3120+100) * (68.8200* 20.3370 - (68.56* 18.8840+100) )/(68.56* 18.8840+100)
+(1 + (61.61*15.7180-1000)/1000) * #
+(1 + (64.23*17.3920 - (61.61*15.7180+100) )/(61.61*15.7180+100)) * #
+(1 + (63.10*17.3120 - (64.23*17.3920-5) )/(64.23*17.3920-5)) * #
+(1 + (68.56* 18.8840 - (63.10*17.3120+100) )/(63.10*17.3120+100)) * #
+(1 + (68.8200* 20.3370 - (68.56* 18.8840+100) )/(68.56* 18.8840+100))
+(1 + (61.61*15.7180-1000)/1000) * #
+(1 + (64.23*17.3920 - (61.61*15.7180+100) )/(61.61*15.7180+100)) * #
+(1 + (63.10*17.3120 - (64.23*17.3920-5) )/(64.23*17.3920-5)) * #
+(1 + (68.56* 18.8840 - (63.10*17.3120+100) )/(63.10*17.3120+100)) * #
+(1 + (68.8200* 20.3370 - (68.56* 18.8840+100) )/(68.56* 18.8840+100))#
+- 1
+(1 + (61.61*15.7180-1000)/1000) * #
+(1 + (64.23*17.3920 - (61.61*15.7180+100) )/(61.61*15.7180+100)) * #
+(1 + (63.10*17.3120 - (64.23*17.3920-5) )/(64.23*17.3920-5)) * #
+(1 + (68.56* 18.8840 - (63.10*17.3120+100) )/(63.10*17.3120+100)) * #
+(1 + (68.8200* 20.3370 - (68.56* 18.8840+100) )/(68.56* 18.8840+100)) - 1
+0.08372086 * 100
+317*3
+317*3 - 290*3
+48.9200*8 - 48.2350*8
+313.00+ 102.55
+313.00+ 102.55 - 715.84
+313.00+ 102.55 - 715.84-14
+520/2
+1356.36 - 500
+1356.36 - 500 - 25.72
+1995.99 - 1300
+695.99 / 1300
+695.99 / 1300 * 100
+6290.79/10000
+6290.79/10000 * 100
+1356.36
+1356.36 - 525.72
+540/2
+270*3
+270*0.03
+270*0.02
+270*0.01
+270*0.02
+270*0.01
+20000*0.0509
+20000*0.0409
+800 * 5
+800 * 15
+200000 * 0.0005
+182.15 + 180.2 + 180.2
+524.70 * 0.05
+524.70 * 0.0556
+50 * 0.10
+50 * 0.20
+50 * 0.25
+1882 * 2
+4000 * 0.0195
+neticsLabFunctions.R", chdir = TRUE)#
+## Kevin laptop#
+source('/Volumes/SSD Part2/_userData/Experiments/Praat scripts/_kevin_mod/phoneticsLabFunctions.R', chdir = TRUE)#
+#
+## What directory contains the file(s) with the Praat parameters?#
+path <- '/Volumes/SSD Part2/_userData/Experiments/kmDissKM/kevinsrlch/3_vowelContinuum/4_ehah/3_segmented/3_params'
+setwd(path)#
+## File with parameters from Praat.#
+ef1 <- read.delim('ef1_w_sc_w.endpoints', header = TRUE)#
+ef2 <- read.delim('ef2_w_sc_w.endpoints', header = TRUE)#
+ef3 <- read.delim('ef3_w_sc_w.endpoints', header = TRUE)#
+ef4 <- read.delim('ef4_w_sc_w.endpoints', header = TRUE)#
+ef5 <- read.delim('ef5_w_sc_w.endpoints', header = TRUE)#
+ef6 <- read.delim('ef6_w_sc_w.endpoints', header = TRUE)#
+ef7 <- read.delim('ef7_w_sc_w.endpoints', header = TRUE)
+nr <- dim(ef1)[1]#
+startr <- 9#
+ef1 <- ef1[startr:(nr-1), ]#
+ef2 <- ef2[startr:(nr-1), ]#
+ef3 <- ef3[startr:(nr-1), ]#
+ef4 <- ef4[startr:(nr-1), ]#
+ef5 <- ef5[startr:(nr-1), ]#
+ef6 <- ef6[startr:(nr-1), ]#
+ef7 <- ef7[startr:(nr-1), ]#
+ef1 $time <- ef1 $time - ef1 $time[1]#
+ef2 $time <- ef2 $time - ef2 $time[1]#
+ef3 $time <- ef3 $time - ef3 $time[1]#
+ef4 $time <- ef4 $time - ef4 $time[1]#
+ef5 $time <- ef5 $time - ef5 $time[1]#
+ef6 $time <- ef6 $time - ef6 $time[1]#
+ef7 $time <- ef7 $time - ef7 $time[1]#
+coln <- 'pitch'#
+nn <- 7; ef1[2:nn, coln] <- ef1[nn, coln]#
+nn <- 2; ef2[2:nn, coln] <- ef2[nn, coln]#
+nn <- 2; ef3[2:nn, coln] <- ef3[nn, coln]#
+nn <- 2; ef7[2:nn, coln] <- ef7[nn, coln]#
+colnm <- 'b3'#
+w1 <- 0.6#
+w2 <- 1.0 - w1#
+fvalue <- 120#
+ef1[ , colnm] <- ef1[ , colnm] * w1 + fvalue * w2#
+ef2[ , colnm] <- ef2[ , colnm] * w1 + fvalue * w2#
+ef3[ , colnm] <- ef3[ , colnm] * w1 + fvalue * w2#
+ef4[ , colnm] <- ef4[ , colnm] * w1 + fvalue * w2#
+ef5[ , colnm] <- ef5[ , colnm] * w1 + fvalue * w2#
+ef6[ , colnm] <- ef6[ , colnm] * w1 + fvalue * w2#
+ef7[ , colnm] <- ef7[ , colnm] * w1 + fvalue * w2#
+#
+colnm <- 'f4'#
+w1 <- 0.5#
+w2 <- 1.0 - w1#
+fvalue <- 3600#
+ef1[ , colnm] <- ef1[ , colnm] * w1 + fvalue * w2#
+ef2[ , colnm] <- ef2[ , colnm] * w1 + fvalue * w2#
+ef3[ , colnm] <- ef3[ , colnm] * w1 + fvalue * w2#
+ef4[ , colnm] <- ef4[ , colnm] * w1 + fvalue * w2#
+ef5[ , colnm] <- ef5[ , colnm] * w1 + fvalue * w2#
+ef6[ , colnm] <- ef6[ , colnm] * w1 + fvalue * w2#
+ef7[ , colnm] <- ef7[ , colnm] * w1 + fvalue * w2#
+#
+colnm <- 'b4'#
+w1 <- 0.6#
+w2 <- 1.0 - w1#
+fvalue <- (350 + 180)/2#
+ef1[ , colnm] <- ef1[ , colnm] * w1 + fvalue * w2#
+ef2[ , colnm] <- ef2[ , colnm] * w1 + fvalue * w2#
+ef3[ , colnm] <- ef3[ , colnm] * w1 + fvalue * w2#
+ef4[ , colnm] <- ef4[ , colnm] * w1 + fvalue * w2#
+ef5[ , colnm] <- ef5[ , colnm] * w1 + fvalue * w2#
+ef6[ , colnm] <- ef6[ , colnm] * w1 + fvalue * w2#
+ef7[ , colnm] <- ef7[ , colnm] * w1 + fvalue * w2#
+#
+colnm <- 'f5'#
+w1 <- 0.6#
+w2 <- 1.0 - w1#
+fvalue <- (4300 + 4500)/2  ##  4400#
+ef1[ , colnm] <- ef1[ , colnm] * w1 + fvalue * w2#
+ef2[ , colnm] <- ef2[ , colnm] * w1 + fvalue * w2#
+ef3[ , colnm] <- ef3[ , colnm] * w1 + fvalue * w2#
+ef4[ , colnm] <- ef4[ , colnm] * w1 + fvalue * w2#
+ef5[ , colnm] <- ef5[ , colnm] * w1 + fvalue * w2#
+ef6[ , colnm] <- ef6[ , colnm] * w1 + fvalue * w2#
+ef7[ , colnm] <- ef7[ , colnm] * w1 + fvalue * w2#
+#
+colnm <- 'b5'#
+w1 <- 0.6#
+w2 <- 1.0 - w1#
+fvalue <- (400 + 300)/2#
+ef1[ , colnm] <- ef1[ , colnm] * w1 + fvalue * w2#
+ef2[ , colnm] <- ef2[ , colnm] * w1 + fvalue * w2#
+ef3[ , colnm] <- ef3[ , colnm] * w1 + fvalue * w2#
+ef4[ , colnm] <- ef4[ , colnm] * w1 + fvalue * w2#
+ef5[ , colnm] <- ef5[ , colnm] * w1 + fvalue * w2#
+ef6[ , colnm] <- ef6[ , colnm] * w1 + fvalue * w2#
+ef7[ , colnm] <- ef7[ , colnm] * w1 + fvalue * w2#
+listofdfs <- list(ef1, ef2, ef3, ef4, ef5, ef6, ef7)#
+d                    <- dim(ef1)#
+matrixtemp           <- NULL#
+cn                   <- colnames(ef2)#
+matrixtemp           <- matrix(nrow = d[1], ncol=d[2])#
+colnames(matrixtemp) <- cn#
+for (label in colnames(ef2)) {#
+	print(label)#
+	labcol <- cbind(ef1[ , label], ef2[ , label], ef3[ , label], ef4[ , label], ef5[ , label], ef6[ , label], ef7[ , label])#
+	medianized <- apply(labcol, 1, median)#
+	averaged   <- apply(labcol, 1, mean)#
+	meanmed <- apply(cbind(medianized, averaged), 1, mean)#
+	matrixtemp[ , label] <- meanmed#
+}#
+ef.avg <- data.frame(matrixtemp)#
+ef.orig <- ef.avg#
+d                    <- dim(ef1)#
+matrixtemp           <- NULL#
+cn                   <- colnames(ef2)#
+matrixtemp           <- matrix(nrow = d[1], ncol=d[2])#
+colnames(matrixtemp) <- cn#
+for (label in colnames(ef2)) {#
+	print(label)#
+	labcol <- cbind(ef1[ , label], ef2[ , label], ef3[ , label], ef4[ , label], ef5[ , label], ef6[ , label], ef7[ , label])#
+	labcol <- data.frame(hfilter(labcol, 5, 'gradual'))#
+	medianized <- apply(labcol, 1, median)#
+	averaged   <- apply(labcol, 1, mean)#
+	meanmed <- apply(cbind(medianized, averaged), 1, mean)#
+	matrixtemp[ , label] <- meanmed#
+}#
+ef.filtered.avg <- data.frame(matrixtemp)#
+#
+ef      <- ef.filtered.avg#
+ef$time <- ef.avg$time#
+#
+ef           <- ef[ (1 : (d[1]-1)) , ]#
+ef$time      <- ef$time - ef$time[1]#
+ef.orig$time <- ef.orig $time - ef.orig $time[1]#
+d                    <- dim(ef1)#
+matrixtemp           <- NULL#
+cn                   <- colnames(ef2)#
+matrixtemp           <- matrix(nrow = d[1], ncol=d[2])#
+colnames(matrixtemp) <- cn#
+for (label in colnames(ef2)) {#
+	print(label)#
+	labcol <- cbind(ef2[ , label], ef5[ , label], ef6[ , label], ef7[ , label])#
+	medianized <- apply(labcol, 1, median)#
+	averaged   <- apply(labcol, 1, mean)#
+	meanmed <- apply(cbind(medianized, averaged), 1, mean)#
+	matrixtemp[ , label] <- meanmed#
+}#
+ef2567      <- data.frame(matrixtemp)#
+ef2567      <- ef2567[ (1 : (d[1]-1)) , ]#
+ef2567$time <- ef2567 $time - ef2567 $time[1]#
+ef2567#
+avgdim <- dim(ef)#
+#
+ef$f1[(avgdim[1]-3) : (avgdim[1])] <- (ef$f1[(avgdim[1]-3) : (avgdim[1])]*0.7) + (ef2567 $f1[(avgdim[1]-3) : (avgdim[1])]*0.3)#
+alltimes <- NULL#
+allf1s   <- NULL#
+allf2s   <- NULL#
+allf3s   <- NULL#
+allf4s   <- NULL#
+allf5s   <- NULL#
+allintens <- NULL#
+for (v in listofdfs) {#
+	alltimes <- c(alltimes, v$time)#
+	allf2s <- c(allf2s, v$f2)#
+	allf1s <- c(allf1s, v$f1)#
+	allf3s <- c(allf3s, v$f3)#
+	allf4s <- c(allf4s, v$f4)#
+	allf5s <- c(allf5s, v$f5)#
+	allintens <- c(allintens, v$intensity)#
+}#
+timerange <- range(alltimes)#
+f1range   <- range(allf1s)#
+f2range   <- range(allf2s)#
+f3range   <- range(allf3s)#
+f4range   <- range(allf4s)#
+f5range   <- range(allf5s)#
+intensrange <- range(allintens)#
+colnm <- 'f1'#
+w1     <- 0.6#
+w2     <- 1.0 - w1#
+fvalue <- 584.7#
+ef[ , colnm] <- ef[ , colnm] * w1 + fvalue * w2#
+colnm <- 'f2'#
+w1     <- 0.6#
+w2     <- 1.0 - w1#
+fvalue <- 1806.75#
+ef[ , colnm] <- ef[ , colnm] * w1 + fvalue * w2#
+colnm <- 'f3'#
+w1     <- 0.6#
+w2     <- 1.0 - w1#
+fvalue <- 2547.25#
+ef[ , colnm] <- ef[ , colnm] * w1 + fvalue * w2#
+colnm <- 'f4'#
+w1     <- 0.6#
+w2     <- 1.0 - w1#
+fvalue <- 3677#
+ef[ , colnm] <- ef[ , colnm] * w1 + fvalue * w2#
+colnm <- 'f5'#
+w1     <- 0.6#
+w2     <- 1.0 - w1#
+fvalue <- 4425.993#
+ef[ , colnm] <- ef[ , colnm] * w1 + fvalue * w2#
+plot(ef1$time, ef1$f1, ylim=f1range, xlim=timerange, typ='l', lwd=2)#
+for (i in 2:7) {#
+	token <- listofdfs[[i]]#
+	lines(token$time, token$f1, col=i, lwd=2)#
+}#
+lines(ef $time, ef $f1, col='darkgray', lwd=5)#
+plot(ef1$time, ef1$f2, ylim=f2range, xlim=timerange, typ='l', lwd=2)#
+for (i in 2:7) {#
+	token <- listofdfs[[i]]#
+	lines(token$time, token$f2, col=i, lwd=2)#
+}#
+lines(ef $time, ef $f2, col='darkgray', lwd=5)#
+plot(ef1$time, ef1$f3, ylim=f3range, xlim=timerange, typ='l', lwd=2)#
+for (i in 2:7) {#
+	token <- listofdfs[[i]]#
+	lines(token$time, token$f3, col=i, lwd=2)#
+}#
+lines(ef $time, ef $f3, col='darkgray', lwd=5)#
+plot(ef1$time, ef1$f5, ylim=f5range, xlim=timerange, typ='l', lwd=2)#
+for (i in 2:7) {#
+	token <- listofdfs[[i]]#
+	lines(token$time, token$f5, col=i, lwd=2)#
+}#
+lines(ef $time, ef $f5, col='darkgray', lwd=5)#
+plot(ef1$time, ef1$f4, ylim=f4range, xlim=timerange, typ='l', lwd=2)#
+for (i in 2:7) {#
+	token <- listofdfs[[i]]#
+	lines(token$time, token$f4, col=i, lwd=2)#
+}#
+lines(ef $time, ef $f4, col='darkgray', lwd=5)#
+plot(ef1$time, ef1$intensity, ylim= intensrange, xlim=timerange, typ='l', lwd=2)#
+for (i in 2:7) {#
+	token <- listofdfs[[i]]#
+	lines(token$time, token$intensity, col=i, lwd=2)#
+}#
+lines(ef $time, ef $intensity, col='darkgray', lwd=5)#
+## What to use for output filenames.#
+basename <- "ef"	#
+## Separate out time and values to be smoothed.#
+#
+efTimePoints <- data.frame(time = ef[ , 'time'])#
+## Separate out values for smoothing.#
+n.cols <- dim(ef)[2]#
+#
+efIntens <- data.frame(intensity = ef[ , 'intensity'])#
+efF0     <- data.frame(pitch = ef[ , 'pitch'])#
+efF15    <- ef[ , c('f1', 'f2', 'f3', 'f4', 'f5')]#
+efB15    <- ef[ , c('b1', 'b2', 'b3', 'b4', 'b5')]#
+## Process.#
+#
+efFilterIntens <- hfilter(efIntens, 5, 'gradual')#
+efSmoothIntens <- losmooth(jitter(efFilterIntens), 3)#
+#
+efFilterF0 <- hfilter(efF0, 5, 'add')#
+efSmoothF0 <- losmooth(jitter(efFilterF0), 3)#
+#
+efFilterF15 <- hfilter(efF15, 5, 'gradual')#
+efSmoothF15 <- losmooth(jitter(efFilterF15), 3)#
+#
+efSmoothF15[ , 'f1'] <- efFilterF15[ , 'f1']#
+efFilterB15 <- hfilter(efB15, 5, 'gradual')#
+efFilterB15 <- hfilter(jitter(efFilterB15), 5, 'gradual')#
+efSmoothB15 <- losmooth(jitter(efFilterB15), 3)#
+## Glue everything back together again.#
+efFiltered <- cbind(efTimePoints, efFilterIntens, efFilterF0, efFilterF15, efFilterB15)#
+efSmoothed <- cbind(efTimePoints, efSmoothIntens, efSmoothF0, efSmoothF15, efSmoothB15)#
+## Plot the results for inspection.#
+plotIntensF0(ef, efFiltered, efSmoothed, num.files=1)#
+plotFormants(ef, efFiltered, efSmoothed, num.files=1)#
+plotFormants(ef, efFiltered, efSmoothed, num.files=1, graph=1)#
+plotBands(ef, efFiltered, efSmoothed, num.files=1)#
+efSmoothed $b1 <- efSmoothed $b1 * 0.7#
+efSmoothed $b2 <- efSmoothed $b2 * 0.8#
+efSmoothed $b3 <- efSmoothed $b3 * 0.9#
+## f1#
+#
+##      c(P&B, Hillenbrand, Olive, Chen)#
+ehf1 <- c(530, 580, 550, 587)#
+mean(ehf1)*0.5 + median(ehf1)*0.5#
+563.375#
+#
+ahf1 <- c(640, 623, 600)#
+mean(ahf1)*0.55 + median(ahf1)*0.45#
+621.9#
+0.76 * 563.375#
+0.60 * 563.375#
+#
+## eh : 550 isolation#
+## ah : 500 f/v (0.8333333), 445 s/z (0.7416667), 600 isolation#
+## ae : 500 f/v (0.7142857), 400 s/z (0.5714286), 700 isolation#
+## ao : 545 f/v (0.8384615), 495 s/z (0.7615385), 650 isolation#
+## iy : 300 f/v (1.071429),  300 s/z (1.071429),  280 isolation#
+## uw : 350 f/v (1.166667),  300 s/z (1.0),       300 isolation#
+mean(efSmoothed $f1)#
+median(efSmoothed $f1)#
+range(efSmoothed $f1)#
+## f2#
+#
+##      c(P&B, Hillenbrand, Olive, Chen)#
+ehf2 <- c(1840, 1799, 1700, 1839)#
+mean(ehf2)*0.5 + median(ehf2)*0.5#
+1806.75#
+#
+ahf2 <- c(1190, 1200, 1500)#
+mean(ahf2)*0.55 + median(ahf2)*0.45#
+1253.167#
+1788.367 * 0.95#
+## eh : 1700 isolation#
+## ah : 1125 f/v (0.75),      1395 s/z (0.93),      1500 isolation#
+## ae : 1600 f/v (0.969697),  1700 s/z (1.030303),  1650 isolation#
+## ao : 995  f/v (1.105556),  1155 s/z (1.283333),  900 isolation#
+## iy : 2050 f/v (0.9111111), 2040 s/z (0.9066667), 2250 isolation#
+## uw : 875  f/v (1.029412),  1595 s/z (1.876471),  850 isolation#
+#
+1806.75 * 1.02#
+1806.75 * 0.969697#
+#
+coln <- 'f2'#
+mean(efSmoothed[ , coln])#
+median(efSmoothed[ , coln])#
+range(efSmoothed[ , coln])#
+## f3#
+#
+##      c(P&B, Hillenbrand, Olive)#
+ehf3 <- c(2480, 2605, 2550)#
+mean(ehf3)*0.55 + median(ehf3)*0.45#
+2547.25#
+#
+ahf2 <- c(2390, 2550, 2400)#
+mean(ahf2)*0.55 + median(ahf2)*0.45#
+1253.167#
+mean(efSmoothed $f3)#
+median(efSmoothed $f3)#
+range(efSmoothed $f3)#
+mean(efSmoothed $f4)#
+median(efSmoothed $f4)#
+range(efSmoothed $f4)#
+mean(efSmoothed $f5)#
+median(efSmoothed $f5)#
+range(efSmoothed $f5)#
+## Write out smoothed values (for future reference if needed).#
+endpointFilename <- paste(basename, "_smoothed.endpoints", sep="")#
+write.table(efSmoothed, endpointFilename, sep='\t')#
+# Write out Klatt file for Praat synthesis.#
+klattwritesingle(efSmoothed, basename, path)#
+praat <- '/Applications/Praat.app/Contents/MacOS/Praat'#
+unixpath <- sub(' ', '\\\\ ', path)#
+klattfile <- paste(unixpath, '/', basename, '_KlattGrid.praat', sep='')#
+command   <- paste(praat, klattfile)#
+system(command)
+Tell R where is 'phoneticsLabFunctions.R'?#
+# # ## from Phoneticus#
+# # source("/plabShared/praat_and_R_scripts/kevin scripts/phoneticsLabFunctions.R", chdir = TRUE)#
+# # ## from non-Phoneticus lab computers#
+# # source("/Volumes/plabShared/praat_and_R_scripts/kevin scripts/phoneticsLabFunctions.R", chdir = TRUE)#
+## Kevin laptop#
+source('/Volumes/SSD Part2/_userData/Experiments/Praat scripts/_kevin_mod/phoneticsLabFunctions.R', chdir = TRUE)#
+#
+## What directory contains the file(s) with the Praat parameters?#
+path <- '/Volumes/SSD Part2/_userData/Experiments/kmDissKM/kevinsrlch/3_vowelContinuum/4_ehah/3_segmented/3_params'#
+setwd(path)#
+## File with parameters from Praat.#
+ef1 <- read.delim('ef1_w_sc_w.endpoints', header = TRUE)#
+ef2 <- read.delim('ef2_w_sc_w.endpoints', header = TRUE)#
+ef3 <- read.delim('ef3_w_sc_w.endpoints', header = TRUE)#
+ef4 <- read.delim('ef4_w_sc_w.endpoints', header = TRUE)#
+ef5 <- read.delim('ef5_w_sc_w.endpoints', header = TRUE)#
+ef6 <- read.delim('ef6_w_sc_w.endpoints', header = TRUE)#
+ef7 <- read.delim('ef7_w_sc_w.endpoints', header = TRUE)#
+#
+nr <- dim(ef1)[1]#
+startr <- 9#
+ef1 <- ef1[startr:(nr-1), ]#
+ef2 <- ef2[startr:(nr-1), ]#
+ef3 <- ef3[startr:(nr-1), ]#
+ef4 <- ef4[startr:(nr-1), ]#
+ef5 <- ef5[startr:(nr-1), ]#
+ef6 <- ef6[startr:(nr-1), ]#
+ef7 <- ef7[startr:(nr-1), ]#
+ef1 $time <- ef1 $time - ef1 $time[1]#
+ef2 $time <- ef2 $time - ef2 $time[1]#
+ef3 $time <- ef3 $time - ef3 $time[1]#
+ef4 $time <- ef4 $time - ef4 $time[1]#
+ef5 $time <- ef5 $time - ef5 $time[1]#
+ef6 $time <- ef6 $time - ef6 $time[1]#
+ef7 $time <- ef7 $time - ef7 $time[1]#
+coln <- 'pitch'#
+nn <- 7; ef1[2:nn, coln] <- ef1[nn, coln]#
+nn <- 2; ef2[2:nn, coln] <- ef2[nn, coln]#
+nn <- 2; ef3[2:nn, coln] <- ef3[nn, coln]#
+nn <- 2; ef7[2:nn, coln] <- ef7[nn, coln]#
+colnm <- 'b3'#
+w1 <- 0.6#
+w2 <- 1.0 - w1#
+fvalue <- 120#
+ef1[ , colnm] <- ef1[ , colnm] * w1 + fvalue * w2#
+ef2[ , colnm] <- ef2[ , colnm] * w1 + fvalue * w2#
+ef3[ , colnm] <- ef3[ , colnm] * w1 + fvalue * w2#
+ef4[ , colnm] <- ef4[ , colnm] * w1 + fvalue * w2#
+ef5[ , colnm] <- ef5[ , colnm] * w1 + fvalue * w2#
+ef6[ , colnm] <- ef6[ , colnm] * w1 + fvalue * w2#
+ef7[ , colnm] <- ef7[ , colnm] * w1 + fvalue * w2#
+#
+colnm <- 'f4'#
+w1 <- 0.5#
+w2 <- 1.0 - w1#
+fvalue <- 3600#
+ef1[ , colnm] <- ef1[ , colnm] * w1 + fvalue * w2#
+ef2[ , colnm] <- ef2[ , colnm] * w1 + fvalue * w2#
+ef3[ , colnm] <- ef3[ , colnm] * w1 + fvalue * w2#
+ef4[ , colnm] <- ef4[ , colnm] * w1 + fvalue * w2#
+ef5[ , colnm] <- ef5[ , colnm] * w1 + fvalue * w2#
+ef6[ , colnm] <- ef6[ , colnm] * w1 + fvalue * w2#
+ef7[ , colnm] <- ef7[ , colnm] * w1 + fvalue * w2#
+#
+colnm <- 'b4'#
+w1 <- 0.6#
+w2 <- 1.0 - w1#
+fvalue <- (350 + 180)/2#
+ef1[ , colnm] <- ef1[ , colnm] * w1 + fvalue * w2#
+ef2[ , colnm] <- ef2[ , colnm] * w1 + fvalue * w2#
+ef3[ , colnm] <- ef3[ , colnm] * w1 + fvalue * w2#
+ef4[ , colnm] <- ef4[ , colnm] * w1 + fvalue * w2#
+ef5[ , colnm] <- ef5[ , colnm] * w1 + fvalue * w2#
+ef6[ , colnm] <- ef6[ , colnm] * w1 + fvalue * w2#
+ef7[ , colnm] <- ef7[ , colnm] * w1 + fvalue * w2#
+#
+colnm <- 'f5'#
+w1 <- 0.6#
+w2 <- 1.0 - w1#
+fvalue <- (4300 + 4500)/2  ##  4400#
+ef1[ , colnm] <- ef1[ , colnm] * w1 + fvalue * w2#
+ef2[ , colnm] <- ef2[ , colnm] * w1 + fvalue * w2#
+ef3[ , colnm] <- ef3[ , colnm] * w1 + fvalue * w2#
+ef4[ , colnm] <- ef4[ , colnm] * w1 + fvalue * w2#
+ef5[ , colnm] <- ef5[ , colnm] * w1 + fvalue * w2#
+ef6[ , colnm] <- ef6[ , colnm] * w1 + fvalue * w2#
+ef7[ , colnm] <- ef7[ , colnm] * w1 + fvalue * w2#
+#
+colnm <- 'b5'#
+w1 <- 0.6#
+w2 <- 1.0 - w1#
+fvalue <- (400 + 300)/2#
+ef1[ , colnm] <- ef1[ , colnm] * w1 + fvalue * w2#
+ef2[ , colnm] <- ef2[ , colnm] * w1 + fvalue * w2#
+ef3[ , colnm] <- ef3[ , colnm] * w1 + fvalue * w2#
+ef4[ , colnm] <- ef4[ , colnm] * w1 + fvalue * w2#
+ef5[ , colnm] <- ef5[ , colnm] * w1 + fvalue * w2#
+ef6[ , colnm] <- ef6[ , colnm] * w1 + fvalue * w2#
+ef7[ , colnm] <- ef7[ , colnm] * w1 + fvalue * w2#
+listofdfs <- list(ef1, ef2, ef3, ef4, ef5, ef6, ef7)#
+d                    <- dim(ef1)#
+matrixtemp           <- NULL#
+cn                   <- colnames(ef2)#
+matrixtemp           <- matrix(nrow = d[1], ncol=d[2])#
+colnames(matrixtemp) <- cn#
+for (label in colnames(ef2)) {#
+	print(label)#
+	labcol <- cbind(ef1[ , label], ef2[ , label], ef3[ , label], ef4[ , label], ef5[ , label], ef6[ , label], ef7[ , label])#
+	medianized <- apply(labcol, 1, median)#
+	averaged   <- apply(labcol, 1, mean)#
+	meanmed <- apply(cbind(medianized, averaged), 1, mean)#
+	matrixtemp[ , label] <- meanmed#
+}#
+ef.avg <- data.frame(matrixtemp)#
+ef.orig <- ef.avg#
+d                    <- dim(ef1)#
+matrixtemp           <- NULL#
+cn                   <- colnames(ef2)#
+matrixtemp           <- matrix(nrow = d[1], ncol=d[2])#
+colnames(matrixtemp) <- cn#
+for (label in colnames(ef2)) {#
+	print(label)#
+	labcol <- cbind(ef1[ , label], ef2[ , label], ef3[ , label], ef4[ , label], ef5[ , label], ef6[ , label], ef7[ , label])#
+	labcol <- data.frame(hfilter(labcol, 5, 'gradual'))#
+	medianized <- apply(labcol, 1, median)#
+	averaged   <- apply(labcol, 1, mean)#
+	meanmed <- apply(cbind(medianized, averaged), 1, mean)#
+	matrixtemp[ , label] <- meanmed#
+}#
+ef.filtered.avg <- data.frame(matrixtemp)#
+#
+ef      <- ef.filtered.avg#
+ef$time <- ef.avg$time#
+#
+ef           <- ef[ (1 : (d[1]-1)) , ]#
+ef$time      <- ef$time - ef$time[1]#
+ef.orig$time <- ef.orig $time - ef.orig $time[1]#
+d                    <- dim(ef1)#
+matrixtemp           <- NULL#
+cn                   <- colnames(ef2)#
+matrixtemp           <- matrix(nrow = d[1], ncol=d[2])#
+colnames(matrixtemp) <- cn#
+for (label in colnames(ef2)) {#
+	print(label)#
+	labcol <- cbind(ef2[ , label], ef5[ , label], ef6[ , label], ef7[ , label])#
+	medianized <- apply(labcol, 1, median)#
+	averaged   <- apply(labcol, 1, mean)#
+	meanmed <- apply(cbind(medianized, averaged), 1, mean)#
+	matrixtemp[ , label] <- meanmed#
+}#
+ef2567      <- data.frame(matrixtemp)#
+ef2567      <- ef2567[ (1 : (d[1]-1)) , ]#
+ef2567$time <- ef2567 $time - ef2567 $time[1]#
+ef2567#
+avgdim <- dim(ef)#
+#
+ef$f1[(avgdim[1]-3) : (avgdim[1])] <- (ef$f1[(avgdim[1]-3) : (avgdim[1])]*0.7) + (ef2567 $f1[(avgdim[1]-3) : (avgdim[1])]*0.3)#
+alltimes <- NULL#
+allf1s   <- NULL#
+allf2s   <- NULL#
+allf3s   <- NULL#
+allf4s   <- NULL#
+allf5s   <- NULL#
+allintens <- NULL#
+for (v in listofdfs) {#
+	alltimes <- c(alltimes, v$time)#
+	allf2s <- c(allf2s, v$f2)#
+	allf1s <- c(allf1s, v$f1)#
+	allf3s <- c(allf3s, v$f3)#
+	allf4s <- c(allf4s, v$f4)#
+	allf5s <- c(allf5s, v$f5)#
+	allintens <- c(allintens, v$intensity)#
+}#
+timerange <- range(alltimes)#
+f1range   <- range(allf1s)#
+f2range   <- range(allf2s)#
+f3range   <- range(allf3s)#
+f4range   <- range(allf4s)#
+f5range   <- range(allf5s)#
+intensrange <- range(allintens)#
+colnm <- 'f1'#
+w1     <- 0.6#
+w2     <- 1.0 - w1#
+fvalue <- 584.7#
+ef[ , colnm] <- ef[ , colnm] * w1 + fvalue * w2#
+colnm <- 'f2'#
+w1     <- 0.6#
+w2     <- 1.0 - w1#
+fvalue <- 1806.75#
+ef[ , colnm] <- ef[ , colnm] * w1 + fvalue * w2#
+colnm <- 'f3'#
+w1     <- 0.6#
+w2     <- 1.0 - w1#
+fvalue <- 2547.25#
+ef[ , colnm] <- ef[ , colnm] * w1 + fvalue * w2#
+colnm <- 'f4'#
+w1     <- 0.6#
+w2     <- 1.0 - w1#
+fvalue <- 3677#
+ef[ , colnm] <- ef[ , colnm] * w1 + fvalue * w2#
+colnm <- 'f5'#
+w1     <- 0.6#
+w2     <- 1.0 - w1#
+fvalue <- 4425.993#
+ef[ , colnm] <- ef[ , colnm] * w1 + fvalue * w2#
+plot(ef1$time, ef1$f1, ylim=f1range, xlim=timerange, typ='l', lwd=2)#
+for (i in 2:7) {#
+	token <- listofdfs[[i]]#
+	lines(token$time, token$f1, col=i, lwd=2)#
+}#
+lines(ef $time, ef $f1, col='darkgray', lwd=5)#
+plot(ef1$time, ef1$f2, ylim=f2range, xlim=timerange, typ='l', lwd=2)#
+for (i in 2:7) {#
+	token <- listofdfs[[i]]#
+	lines(token$time, token$f2, col=i, lwd=2)#
+}#
+lines(ef $time, ef $f2, col='darkgray', lwd=5)#
+plot(ef1$time, ef1$f3, ylim=f3range, xlim=timerange, typ='l', lwd=2)#
+for (i in 2:7) {#
+	token <- listofdfs[[i]]#
+	lines(token$time, token$f3, col=i, lwd=2)#
+}#
+lines(ef $time, ef $f3, col='darkgray', lwd=5)#
+plot(ef1$time, ef1$f5, ylim=f5range, xlim=timerange, typ='l', lwd=2)#
+for (i in 2:7) {#
+	token <- listofdfs[[i]]#
+	lines(token$time, token$f5, col=i, lwd=2)#
+}#
+lines(ef $time, ef $f5, col='darkgray', lwd=5)#
+plot(ef1$time, ef1$f4, ylim=f4range, xlim=timerange, typ='l', lwd=2)#
+for (i in 2:7) {#
+	token <- listofdfs[[i]]#
+	lines(token$time, token$f4, col=i, lwd=2)#
+}#
+lines(ef $time, ef $f4, col='darkgray', lwd=5)#
+plot(ef1$time, ef1$intensity, ylim= intensrange, xlim=timerange, typ='l', lwd=2)#
+for (i in 2:7) {#
+	token <- listofdfs[[i]]#
+	lines(token$time, token$intensity, col=i, lwd=2)#
+}#
+lines(ef $time, ef $intensity, col='darkgray', lwd=5)
+spread#
+# mode #
+#
+# porportion of d/b #
+library(Hmisc)#
+library(lattice)#
+library(languageR)#
+library(lme4)#
+#
+directory <- '/Volumes/SSD Part2/_userDataSSD2/Experiments/kmDissKM/ibexFarm/8_bdlaaraa_v3/results'#
+#
+setwd(directory)#
+resultfile <- 'trialdata.txt'#
+columnlist <- c('workerID', 'timestamp', 'IPhash', 'trial', 'itemnum', 'trialtype', 'Vstep', 'C', 'stim', 'resp', 'respC1', 'respC2', 'RT', 'disorder', 'lang', 'headphones')#
+results <- read.delim(resultfile, header = FALSE, col.names = columnlist)#
+#
+head(results)#
+length(unique(results$workerID))#
+# #
+#
+computerproblem <- c('AJY6J33X1KJNP', 'A24QSO0ZGQNMRF%0A')#
+results <- results[!(results $workerID %in% computerproblem), ]#
+results $workerID <- factor(results $workerID)#
+excluded <- results[(results$disorder != 'disorderno' | results$headphones != 'headphoneyes'), ]#
+# excluded <- results[(results$disorder != 'disorderno' | results$lang != 'eng' | results$headphones != 'headphoneyes'), ]#
+# results <- results[(results$disorder == 'disorderno' & results$lang == 'eng' & results$headphones == 'headphoneyes'), ]#
+results <- results[(results$disorder == 'disorderno' & results$headphones == 'headphoneyes'), ]#
+#
+results $workerID <- factor(results $workerID)#
+subjs <- unique(results$workerID)#
+length(subjs)#
+results$dummy <- 1#
+results$RT <- results$RT - 0.03521492113328848 * 1000#
+results $resp#
+class(results $resp)#
+#
+results $respV <- factor(tolower(substr(results $resp, 1, 1)))#
+results $respC <- factor(tolower(substr(results $resp, 4, 4)))#
+results $respNumV <- ifelse(results $respV == 'o', 0, #
+                           ifelse(results $respV == 'e', 1, 5))#
+results $respNumC <- ifelse(results $respC == 'b', 0, #
+                           ifelse(results $respC == 'd', 1, 5))#
+head(results)#
+duration <- NULL#
+for (s in subjs) {#
+	subj.results <- results[results$workerID == s, ]#
+	xtab <- xtabs( ~ stim, data = subj.results)#
+	print(s)#
+	howlong <- sum(subj.results$RT)/1000/30#
+	print(howlong)#
+	duration <- c(duration, howlong)#
+	# print( length(subj.results$resp) )#
+}#
+duration#
+summary(duration)#
+tfamily <- 'DTLArgoT'#
+tiles <- c(8, 10)#
+results$RT#
+summary(results$RT)#
+par(family = tfamily)#
+plot(results$RT, pch=16, cex=0.6)#
+plot(results$RT, typ='l')#
+hist(results$RT)#
+hist(results$RT, breaks='Scott')#
+hist(results$RT, breaks='FD')#
+#####################
+## practice#
+#####################
+plot(results$RT[results$trialtype == 'p'], pch=16, cex=0.6)#
+plot(results$RT[results$trialtype == 'p'], typ='l')#
+xtab <- xtabs( ~ resp, data = results[results$trialtype == 'p', ])#
+barplot(xtab)#
+#
+summary(results$RT[results$trialtype == 'p'])#
+par(mfrow= tiles, mar=c(1.9, 2, 1, 0.5), cex=0.5, family = tfamily)#
+for (s in subjs) {#
+	s.result <- results[ results$workerID == s & results$trialtype == 'p', ]#
+	# plot(s.result$RT, main=s,typ='l', lwd='1.5', col='blue')#
+	plot(s.result$RT, main=s, ylim=c(0, max(results $RT)), typ='l', lwd='1.5', col='blue')#
+}#
+results <- results[results $trialtype == 't', ]#
+#####################
+# ## remove extreme slow (6289.3262076)#
+# results <- results[results $RT < 6288, ]#
+# results[results $RT > 6287, ]#
+par(family = tfamily)#
+plot(results$RT, pch=16, cex=0.5, col='darkblue')#
+plot(results$RT, typ='l', col='darkblue')#
+plot(sort(results$RT), pch=16, cex=0.6, col='darkblue')#
+par(family = tfamily)#
+xtab <- xtabs( ~ resp, data = results)#
+barplot(xtab)#
+summary(results$RT)#
+range(results$RT)#
+range(results$RT)*1.1#
+## RTs#
+par(mfrow= tiles, mar=c(1.9, 2, 2, 0.5), cex=0.4, family = tfamily)#
+for (s in subjs) {#
+	s.result <- results[ results$workerID == s, ]#
+	print(dim(s.result)[1])#
+	plot(s.result$RT, main=s, ylim=c(-200, 7700), typ='l', col='darkblue')#
+}#
+## V responses#
+par(mfrow= tiles, mar=c(1.9, 2, 2, 0.5), cex=0.4, family = tfamily)#
+for (s in subjs) {#
+	s.result <- results[ results$workerID == s, ]#
+	# print(dim(s.result)[1])#
+	plot(s.result$respNumV, main=s, ylim=c(-0.5, 5.5), pch=16, col='darkblue')#
+}#
+## C responses#
+par(mfrow= tiles, mar=c(1.9, 2, 2, 0.5), cex=0.4, family = tfamily)#
+for (s in subjs) {#
+	s.result <- results[ results$workerID == s, ]#
+	# print(dim(s.result)[1])#
+	plot(s.result$respNumC, main=s, ylim=c(-0.5, 5.5), pch=16, col='darkblue')#
+}#
+dim(s.result)#
+par(mfrow= tiles, mar=c(1.9, 2, 2, 0.5), cex=0.5, family = tfamily)#
+for (s in subjs) {#
+	s.result <- results[ results$workerID == s, ]#
+	xtab <- xtabs( ~ resp, data = s.result)#
+	barplot(xtab, ylim=c(0, 300), main=s)#
+	print(xtab)#
+}#
+# V#
+par(mfrow= tiles, mar=c(1.9, 2, 2, 0.5), cex=0.5, family = tfamily)#
+for (s in subjs) {#
+	s.result <- results[ results$workerID == s, ]#
+	xtab <- xtabs( ~ respV, data = s.result)#
+	barplot(xtab, ylim=c(0, 280), main=s)#
+	print(xtab)#
+}#
+# C#
+par(mfrow= tiles, mar=c(1.9, 2, 2, 0.5), cex=0.5, family = tfamily)#
+for (s in subjs) {#
+	s.result <- results[ results$workerID == s, ]#
+	xtab <- xtabs( ~ respC, data = s.result)#
+	barplot(xtab, ylim=c(0, 280), main=s)#
+	print(xtab)#
+}#
+percentNoResp <- NULL#
+par(mfrow= tiles, mar=c(1.9, 2, 2, 0.5), cex=0.5, family = tfamily)#
+for (s in subjs) {#
+	s.result <- results[ results$workerID == s, ]#
+	xtab <- xtabs( ~ resp, data = s.result)#
+	barplot(xtab, ylim=c(0, 280), main=s)#
+	# print(xtab)#
+	noResp <- xtab['NULL'] / sum(xtab) * 100#
+	percentNoResp <- c(percentNoResp, noResp)#
+	print(s)#
+	print(noResp)#
+}#
+## percent no response#
+par(mar=c(10, 6, 2, 1), family = tfamily, cex=0.48)#
+barplot(percentNoResp, names.arg=subjs, ylim=c(0,15), las=2, space=0.2, legend.text=FALSE)#
+abline(mean(percentNoResp), 0, col='red')#
+abline(median(percentNoResp), 0, col='blue')#
+## all responses#
+par(mar=c(8, 6, 2, 1), family = tfamily, cex=0.4)#
+xtab <- xtabs( ~ resp + workerID, data = results)#
+barplot(xtab, las=2, space=0.2, legend.text=TRUE)
+all responses#
+par(mar=c(8, 6, 2, 1), family = tfamily, cex=0.4)#
+xtab <- xtabs( ~ resp + workerID, data = results)#
+barplot(xtab, las=2, space=0.2, legend.text=TRUE)
+percent no response#
+par(mar=c(10, 6, 2, 1), family = tfamily, cex=0.48)#
+barplot(percentNoResp, names.arg=subjs, ylim=c(0,15), las=2, space=0.2, legend.text=FALSE)#
+abline(mean(percentNoResp), 0, col='red')#
+abline(median(percentNoResp), 0, col='blue')
+percentNoResp <- NULL#
+par(mfrow= tiles, mar=c(1.9, 2, 2, 0.5), cex=0.5, family = tfamily)#
+for (s in subjs) {#
+	s.result <- results[ results$workerID == s, ]#
+	xtab <- xtabs( ~ resp, data = s.result)#
+	barplot(xtab, ylim=c(0, 280), main=s)#
+	# print(xtab)#
+	noResp <- xtab['NULL'] / sum(xtab) * 100#
+	percentNoResp <- c(percentNoResp, noResp)#
+	print(s)#
+	print(noResp)#
+}
+percentNoResp <- NULL#
+par(mfrow= tiles, mar=c(1.9, 2, 2, 0.5), cex=0.5, family = tfamily)#
+for (s in subjs) {#
+	s.result <- results[ results$workerID == s, ]#
+	xtab <- xtabs( ~ resp, data = s.result)#
+	barplot(xtab, ylim=c(0, 160), main=s)#
+	# print(xtab)#
+	noResp <- xtab['NULL'] / sum(xtab) * 100#
+	percentNoResp <- c(percentNoResp, noResp)#
+	print(s)#
+	print(noResp)#
+}
+percentNoResp <- NULL#
+par(mfrow= tiles, mar=c(1.9, 2, 2, 0.5), cex=0.5, family = tfamily)#
+for (s in subjs) {#
+	s.result <- results[ results$workerID == s, ]#
+	xtab <- xtabs( ~ resp, data = s.result)#
+	barplot(xtab, ylim=c(0, 100), main=s)#
+	# print(xtab)#
+	noResp <- xtab['NULL'] / sum(xtab) * 100#
+	percentNoResp <- c(percentNoResp, noResp)#
+	print(s)#
+	print(noResp)#
+}
+alotoftimeouts <- c(#
+                    '', # 34.92647#
+                    # 'A1MV8BTMX8MJEO', # 34.92647#
+                    # 'A3316W4VTGJ0ED' # 21.32353#
+                    # 'AYJVWVZNQVLP5' # 10.66176#
+)#
+resultsGood <- results#
+subjsGood   <- unique(resultsGood $workerID)
+resultsNoResponse <- resultsGood[resultsGood$resp == 'NULL', ]#
+dim(resultsNoResponse)
+resultsRespGood <- resultsGood[resultsGood$resp != 'NULL', ]#
+resultsRespGood $resp <- factor(resultsRespGood $resp)#
+dim(resultsRespGood)
+summary(resultsRespGood $RT)#
+par(family = tfamily)#
+plot(resultsRespGood $RT, pch=16, cex=0.1)#
+abline(225, 0, col='blue')#
+center <- mean(resultsRespGood $RT) * 0.5 + median(resultsRespGood $RT) * 0.5#
+abline(center, 0, col='red', lwd=2)#
+abline(3700, 0, col='black')#
+points(resultsRespGood $RT, pch=16, cex=0.5)
+responses <- resultsRespGood[resultsRespGood$RT > 300, ]#
+responses$RTlog <- log(responses$RT)#
+summary(responses $RT)#
+summary(responses $RTlog)#
+par(family = tfamily)#
+plot(responses $RTlog, pch=16, cex=0.4)#
+abline(log(225), 0, col='blue')#
+center <- mean(responses $RTlog) * 0.5 + median(responses $RTlog) * 0.5#
+abline(center, 0, col='red', lwd=2)#
+plot(responses $RTlog, typ='l')
+hist(responses $RT)#
+hist(responses $RT, breaks='Scott')#
+# hist(responses $RT, breaks='FD')#
+hist(responses $RTlog)#
+hist(responses $RTlog, breaks='Scott')#
+# hist(responses $RTlog, breaks='FD')#
+#
+# hist(responses $RTlog, breaks=seq(from=5, to=8, by=1/6), xlim=c(5,8))#
+par(mfrow=tiles, mar=borders, cex=text.size, family=tfamily)#
+for (s in subjsGood) {#
+	s.result <- responses[ responses $workerID == s, ]#
+	plot(s.result$RTlog, main=s, ylim=c(5, 8.5), pch=16, cex=0.5)#
+	# plot(s.result$RTlog, main=s, xlim=c(0, 212), ylim=c(4, 7.9), typ='l')#
+	abline(log(225), 0, col='blue')#
+	center <- mean(s.result$RTlog) * 0.5 + median(s.result$RTlog) * 0.5#
+	abline(center, 0, col='red', lwd=2)#
+	print(dim(s.result))#
+}
+spread#
+# mode #
+#
+# porportion of d/b #
+library(Hmisc)#
+library(lattice)#
+library(languageR)#
+library(lme4)#
+#
+directory <- '/Volumes/SSD Part2/_userDataSSD2/Experiments/kmDissKM/ibexFarm/8_bdlaaraa_v3/results'#
+#
+setwd(directory)#
+resultfile <- 'trialdata.txt'#
+columnlist <- c('workerID', 'timestamp', 'IPhash', 'trial', 'itemnum', 'trialtype', 'Vstep', 'C', 'stim', 'resp', 'respC1', 'respC2', 'RT', 'disorder', 'lang', 'headphones')#
+results <- read.delim(resultfile, header = FALSE, col.names = columnlist)#
+#
+head(results)#
+length(unique(results$workerID))
+computerproblem <- c('AJY6J33X1KJNP', 'A24QSO0ZGQNMRF%0A')#
+results <- results[!(results $workerID %in% computerproblem), ]#
+results $workerID <- factor(results $workerID)#
+excluded <- results[(results$disorder != 'disorderno' | results$headphones != 'headphoneyes'), ]#
+# excluded <- results[(results$disorder != 'disorderno' | results$lang != 'eng' | results$headphones != 'headphoneyes'), ]#
+# results <- results[(results$disorder == 'disorderno' & results$lang == 'eng' & results$headphones == 'headphoneyes'), ]#
+results <- results[(results$disorder == 'disorderno' & results$headphones == 'headphoneyes'), ]#
+#
+results $workerID <- factor(results $workerID)#
+subjs <- unique(results$workerID)#
+length(subjs)#
+results$dummy <- 1#
+results$RT <- results$RT - 0.03521492113328848 * 1000
+results $resp#
+class(results $resp)#
+results $respNumC1 <- ifelse(results $respC1 == 'B', 0, #
+                           ifelse(results $respC1 == 'D', 1, 5))#
+results $respNumC2 <- ifelse(results $respC2 == 'L', 0, #
+                           ifelse(results $respC2 == 'R', 1, 5))#
+head(results)#
+duration <- NULL#
+for (s in subjs) {#
+	subj.results <- results[results$workerID == s, ]#
+	xtab <- xtabs( ~ stim, data = subj.results)#
+	print(s)#
+	howlong <- sum(subj.results$RT)/1000/30#
+	print(howlong)#
+	duration <- c(duration, howlong)#
+	# print( length(subj.results$resp) )#
+}#
+duration#
+summary(duration)
+tfamily <- 'DTLArgoT'#
+tiles <- c(8, 10)#
+results$RT#
+summary(results$RT)#
+par(family = tfamily)#
+plot(results$RT, pch=16, cex=0.6)#
+plot(results$RT, typ='l')#
+hist(results$RT)#
+hist(results$RT, breaks='Scott')#
+hist(results$RT, breaks='FD')#
+#####################
+## practice#
+#####################
+plot(results$RT[results$trialtype == 'p'], pch=16, cex=0.6)#
+plot(results$RT[results$trialtype == 'p'], typ='l')#
+xtab <- xtabs( ~ resp, data = results[results$trialtype == 'p', ])#
+barplot(xtab)#
+#
+summary(results$RT[results$trialtype == 'p'])#
+par(mfrow= tiles, mar=c(1.9, 2, 1, 0.5), cex=0.5, family = tfamily)#
+for (s in subjs) {#
+	s.result <- results[ results$workerID == s & results$trialtype == 'p', ]#
+	# plot(s.result$RT, main=s,typ='l', lwd='1.5', col='blue')#
+	plot(s.result$RT, main=s, ylim=c(0, max(results $RT)), typ='l', lwd='1.5', col='blue')#
+}#
+results <- results[results $trialtype == 't', ]
+par(family = tfamily)#
+plot(results$RT, pch=16, cex=0.5, col='darkblue')#
+plot(results$RT, typ='l', col='darkblue')#
+plot(sort(results$RT), pch=16, cex=0.6, col='darkblue')
+par(family = tfamily)#
+xtab <- xtabs( ~ resp, data = results)#
+barplot(xtab)#
+summary(results$RT)#
+range(results$RT)#
+range(results$RT)*1.1#
+## RTs#
+par(mfrow= tiles, mar=c(1.9, 2, 2, 0.5), cex=0.4, family = tfamily)#
+for (s in subjs) {#
+	s.result <- results[ results$workerID == s, ]#
+	print(dim(s.result)[1])#
+	plot(s.result$RT, main=s, ylim=c(-200, 7700), typ='l', col='darkblue')#
+}
+V responses#
+par(mfrow= tiles, mar=c(1.9, 2, 2, 0.5), cex=0.4, family = tfamily)#
+for (s in subjs) {#
+	s.result <- results[ results$workerID == s, ]#
+	# print(dim(s.result)[1])#
+	plot(s.result$respNumV, main=s, ylim=c(-0.5, 5.5), pch=16, col='darkblue')#
+}
+C responses#
+par(mfrow= tiles, mar=c(1.9, 2, 2, 0.5), cex=0.4, family = tfamily)#
+for (s in subjs) {#
+	s.result <- results[ results$workerID == s, ]#
+	# print(dim(s.result)[1])#
+	plot(s.result$respNumC, main=s, ylim=c(-0.5, 5.5), pch=16, col='darkblue')#
+}
+par(mfrow= tiles, mar=c(1.9, 2, 2, 0.5), cex=0.5, family = tfamily)#
+for (s in subjs) {#
+	s.result <- results[ results$workerID == s, ]#
+	xtab <- xtabs( ~ resp, data = s.result)#
+	barplot(xtab, ylim=c(0, 300), main=s)#
+	print(xtab)#
+}
+par(mfrow= tiles, mar=c(1.9, 2, 2, 0.5), cex=0.5, family = tfamily)#
+for (s in subjs) {#
+	s.result <- results[ results$workerID == s, ]#
+	xtab <- xtabs( ~ resp, data = s.result)#
+	barplot(xtab, ylim=c(0, 200), main=s)#
+	print(xtab)#
+}
+par(mfrow= tiles, mar=c(1.9, 2, 2, 0.5), cex=0.5, family = tfamily)#
+for (s in subjs) {#
+	s.result <- results[ results$workerID == s, ]#
+	xtab <- xtabs( ~ resp, data = s.result)#
+	barplot(xtab, ylim=c(0, 100), main=s)#
+	print(xtab)#
+}
+C#
+par(mfrow= tiles, mar=c(1.9, 2, 2, 0.5), cex=0.5, family = tfamily)#
+for (s in subjs) {#
+	s.result <- results[ results$workerID == s, ]#
+	xtab <- xtabs( ~ respC, data = s.result)#
+	barplot(xtab, ylim=c(0, 280), main=s)#
+	print(xtab)#
+}
+percentNoResp <- NULL#
+par(mfrow= tiles, mar=c(1.9, 2, 2, 0.5), cex=0.5, family = tfamily)#
+for (s in subjs) {#
+	s.result <- results[ results$workerID == s, ]#
+	xtab <- xtabs( ~ resp, data = s.result)#
+	barplot(xtab, ylim=c(0, 100), main=s)#
+	# print(xtab)#
+	noResp <- xtab['NULL'] / sum(xtab) * 100#
+	percentNoResp <- c(percentNoResp, noResp)#
+	print(s)#
+	print(noResp)#
+}
+percent no response#
+par(mar=c(10, 6, 2, 1), family = tfamily, cex=0.48)#
+barplot(percentNoResp, names.arg=subjs, ylim=c(0,15), las=2, space=0.2, legend.text=FALSE)#
+abline(mean(percentNoResp), 0, col='red')#
+abline(median(percentNoResp), 0, col='blue')
+percent no response#
+par(mar=c(10, 6, 2, 1), family = tfamily, cex=0.48)#
+barplot(percentNoResp, names.arg=subjs, ylim=c(0,15), las=2, space=0.2, legend.text=FALSE)#
+abline(mean(percentNoResp), 0, col='red')#
+abline(median(percentNoResp), 0, col='blue')
+all responses#
+par(mar=c(8, 6, 2, 1), family = tfamily, cex=0.4)#
+xtab <- xtabs( ~ resp + workerID, data = results)#
+barplot(xtab, las=2, space=0.2, legend.text=TRUE)
+remove folks who didnt respond#
+##############################################
+alotoftimeouts <- c(#
+                    '', # 34.92647#
+                    # 'A1MV8BTMX8MJEO', # 34.92647#
+                    # 'A3316W4VTGJ0ED' # 21.32353#
+                    # 'AYJVWVZNQVLP5' # 10.66176#
+)#
+resultsGood <- results#
+subjsGood   <- unique(resultsGood $workerID)
+exclude no response#
+##############################################
+resultsNoResponse <- resultsGood[resultsGood$resp == 'NULL', ]#
+dim(resultsNoResponse)#
+resultsRespGood <- resultsGood[resultsGood$resp != 'NULL', ]#
+resultsRespGood $resp <- factor(resultsRespGood $resp)#
+dim(resultsRespGood)#
+summary(resultsRespGood $RT)
+par(family = tfamily)#
+plot(resultsRespGood $RT, pch=16, cex=0.1)#
+abline(225, 0, col='blue')#
+center <- mean(resultsRespGood $RT) * 0.5 + median(resultsRespGood $RT) * 0.5#
+abline(center, 0, col='red', lwd=2)#
+abline(3700, 0, col='black')#
+points(resultsRespGood $RT, pch=16, cex=0.5)#
+#
+plot(resultsRespGood $RT, typ='l')#
+hist(resultsRespGood $RT)#
+hist(resultsRespGood $RT, breaks='Scott')#
+# hist(resultsRespGood $RT, breaks='FD')#
+borders <- c(2, 2, 1.2, 1)#
+text.size <- 0.4#
+#
+par(mfrow=tiles, mar=borders, cex=text.size, family=tfamily)#
+for (s in subjsGood) {#
+	s.result <- resultsRespGood[ resultsRespGood $workerID == s, ]#
+	plot(s.result$RT, main=s, ylim=c(0, 4000), pch=16, cex=0.2)#
+	abline(225, 0, col='blue')#
+	abline(center, 0, col='red', lwd=2)#
+	points(s.result$RT, pch=16, cex=0.8)#
+	center <- mean(s.result$RT) * 0.5 + median(s.result$RT) * 0.5#
+	# print(dim(s.result))#
+}
+exclude faster than 200ms & practice items#
+##############################################
+responses <- resultsRespGood[resultsRespGood$RT > 300, ]#
+responses$RTlog <- log(responses$RT)#
+summary(responses $RT)#
+summary(responses $RTlog)#
+par(family = tfamily)#
+plot(responses $RTlog, pch=16, cex=0.4)#
+abline(log(225), 0, col='blue')#
+center <- mean(responses $RTlog) * 0.5 + median(responses $RTlog) * 0.5#
+abline(center, 0, col='red', lwd=2)#
+plot(responses $RTlog, typ='l')#
+hist(responses $RT)#
+hist(responses $RT, breaks='Scott')#
+# hist(responses $RT, breaks='FD')#
+hist(responses $RTlog)#
+hist(responses $RTlog, breaks='Scott')#
+# hist(responses $RTlog, breaks='FD')#
+#
+# hist(responses $RTlog, breaks=seq(from=5, to=8, by=1/6), xlim=c(5,8))#
+par(mfrow=tiles, mar=borders, cex=text.size, family=tfamily)#
+for (s in subjsGood) {#
+	s.result <- responses[ responses $workerID == s, ]#
+	plot(s.result$RTlog, main=s, ylim=c(5, 8.5), pch=16, cex=0.5)#
+	# plot(s.result$RTlog, main=s, xlim=c(0, 212), ylim=c(4, 7.9), typ='l')#
+	abline(log(225), 0, col='blue')#
+	center <- mean(s.result$RTlog) * 0.5 + median(s.result$RTlog) * 0.5#
+	abline(center, 0, col='red', lwd=2)#
+	print(dim(s.result))#
+}
+par(mfrow=tiles, mar=borders, cex=text.size, family=tfamily)#
+for (s in subjsGood) {#
+	s.result <- responses[ responses $workerID == s, ]#
+	hist(s.result$RTlog, breaks=seq(from=5, to=8.5, by=1/5), xlim=c(5,8.5), main=s)#
+	# hist(s.result$RTlog, breaks=seq(from=4, to=8, by=1/10), xlim=c(4,8), main=s)#
+	# hist(s.result$RTlog, breaks=seq(from=4, to=8, by=1/20), xlim=c(4,8), main=s)#
+}
+par(mfrow= tiles, mar= borders, cex= text.size, family = tfamily)#
+for (s in subjsGood) {#
+	s.result <- responses[ responses $workerID == s, ]#
+	xtab <- xtabs( ~ resp, data = s.result)#
+	barplot(xtab, ylim=c(0, 300), main=s)#
+	print(xtab)#
+}
+borders <- c(, 2.4, 2, 2.3)#
+par(mfrow= tiles, mar= borders, cex= text.size, family = tfamily)#
+for (s in subjsGood) {#
+	s.result <- responses[ responses $workerID == s, ]#
+	xtab <- xtabs( ~ resp, data = s.result)#
+	barplot(xtab, ylim=c(0, 100), main=s)#
+	print(xtab)#
+}
+borders <- c(, 2.4, 2, 2.3)#
+par(mfrow= tiles, mar= borders, cex= text.size, family = tfamily)#
+for (s in subjsGood) {#
+	s.result <- responses[ responses $workerID == s, ]#
+	xtab <- xtabs( ~ resp, data = s.result)#
+	barplot(xtab, ylim=c(0, 90), main=s)#
+	print(xtab)#
+}
+borders <- c(, 2.4, 2, 2.3)#
+par(mfrow= tiles, mar= borders, cex= text.size, family = tfamily)#
+for (s in subjsGood) {#
+	s.result <- responses[ responses $workerID == s, ]#
+	xtab <- xtabs( ~ resp, data = s.result)#
+	barplot(xtab, ylim=c(0, 100), main=s)#
+	print(xtab)#
+}
+head(responses)#
+xlabel <- '1 [b] – [d] 17'#
+ylabel <- 'prop. ‘d’ resp.'#
+xlabelc <- '1 [b] – [d] 17'#
+ylabelc <- 'prop. ‘d’ resp.'#
+borders <- c(4.1,4.3,1.5,0.4)#
+#
+responses $dummy <- 1#
+#
+length(responses $respNumC1)#
+length(responses $respNumC2)#
+length(responses $dummy)#
+par(mfrow=c(1,1), mar= borders, cex.lab=1.2, cex.axis=1.1, family = tfamily)#
+interaction.plot(responses$Vstep, responses $dummy, responses $respNumC1, xlab=xlabel, ylab=ylabel, legend=FALSE, ylim=c(0, 1), main='pooled', lwd=2.3)#
+vm   <- tapply(responses $respNumV, responses $stepV, mean)#
+vsd  <- tapply(responses $respNumV, responses $stepV, sd)#
+vsem <- vsd / sqrt( length(subjsGood) ) ##* 1.96#
+errbar( c(1:length(vm)), vm, vm + vsem, vm - vsem, add=TRUE, pch="")
+head(responses)#
+xlabel <- '1 [b] – [d] 17'#
+ylabel <- 'prop. ‘d’ resp.'#
+xlabelc <- '1 [b] – [d] 17'#
+ylabelc <- 'prop. ‘d’ resp.'#
+borders <- c(4.1,4.3,1.5,0.4)#
+#
+responses $dummy <- 1#
+#
+length(responses $respNumC1)#
+length(responses $respNumC2)#
+length(responses $dummy)#
+par(mfrow=c(1,1), mar= borders, cex.lab=1.2, cex.axis=1.1, family = tfamily)#
+interaction.plot(responses$Vstep, responses $dummy, responses $respNumC1, xlab=xlabel, ylab=ylabel, legend=FALSE, ylim=c(0, 1), main='pooled', lwd=2.3)#
+vm   <- tapply(responses $respNumV, responses $stepV, mean)#
+vsd  <- tapply(responses $respNumV, responses $stepV, sd)#
+vsem <- vsd / sqrt( length(subjsGood) ) ##* 1.96#
+errbar( c(1:length(vm)), vm, vm + vsem, vm - vsem, add=TRUE, pch="")
+spread#
+# mode #
+#
+# porportion of d/b #
+library(Hmisc)#
+library(lattice)#
+library(languageR)#
+library(lme4)#
+#
+directory <- '/Volumes/SSD Part2/_userDataSSD2/Experiments/kmDissKM/ibexFarm/8_bdlaaraa_v3/results'#
+#
+setwd(directory)#
+resultfile <- 'trialdata.txt'#
+columnlist <- c('workerID', 'timestamp', 'IPhash', 'trial', 'itemnum', 'trialtype', 'Vstep', 'C', 'stim', 'resp', 'respC1', 'respC2', 'RT', 'disorder', 'lang', 'headphones')#
+results <- read.delim(resultfile, header = FALSE, col.names = columnlist)#
+#
+head(results)
+length(unique(results$workerID))#
+# #
+#
+computerproblem <- c('AJY6J33X1KJNP', 'A24QSO0ZGQNMRF%0A')#
+results <- results[!(results $workerID %in% computerproblem), ]#
+results $workerID <- factor(results $workerID)
+excluded <- results[(results$disorder != 'disorderno' | results$headphones != 'headphoneyes'), ]#
+# excluded <- results[(results$disorder != 'disorderno' | results$lang != 'eng' | results$headphones != 'headphoneyes'), ]#
+# results <- results[(results$disorder == 'disorderno' & results$lang == 'eng' & results$headphones == 'headphoneyes'), ]#
+results <- results[(results$disorder == 'disorderno' & results$headphones == 'headphoneyes'), ]#
+#
+results $workerID <- factor(results $workerID)#
+subjs <- unique(results$workerID)#
+length(subjs)#
+results$dummy <- 1#
+results$RT <- results$RT - 0.03521492113328848 * 1000#
+results $resp#
+class(results $resp)#
+results $respNumC1 <- ifelse(results $respC1 == 'B', 0, #
+                           ifelse(results $respC1 == 'D', 1, 5))#
+results $respNumC2 <- ifelse(results $respC2 == 'L', 0, #
+                           ifelse(results $respC2 == 'R', 1, 5))#
+head(results)#
+duration <- NULL#
+for (s in subjs) {#
+	subj.results <- results[results$workerID == s, ]#
+	xtab <- xtabs( ~ stim, data = subj.results)#
+	print(s)#
+	howlong <- sum(subj.results$RT)/1000/30#
+	print(howlong)#
+	duration <- c(duration, howlong)#
+	# print( length(subj.results$resp) )#
+}#
+duration#
+summary(duration)
+tfamily <- 'DTLArgoT'#
+tiles <- c(8, 10)#
+results$RT#
+summary(results$RT)#
+par(family = tfamily)#
+plot(results$RT, pch=16, cex=0.6)#
+plot(results$RT, typ='l')#
+hist(results$RT)#
+hist(results$RT, breaks='Scott')#
+hist(results$RT, breaks='FD')
+plot(results$RT[results$trialtype == 'p'], pch=16, cex=0.6)#
+plot(results$RT[results$trialtype == 'p'], typ='l')
+xtab <- xtabs( ~ resp, data = results[results$trialtype == 'p', ])#
+barplot(xtab)#
+#
+summary(results$RT[results$trialtype == 'p'])
+par(mfrow= tiles, mar=c(1.9, 2, 1, 0.5), cex=0.5, family = tfamily)#
+for (s in subjs) {#
+	s.result <- results[ results$workerID == s & results$trialtype == 'p', ]#
+	# plot(s.result$RT, main=s,typ='l', lwd='1.5', col='blue')#
+	plot(s.result$RT, main=s, ylim=c(0, max(results $RT)), typ='l', lwd='1.5', col='blue')#
+}
+results <- results[results $trialtype == 't', ]#
+#####################
+# ## remove extreme slow (6289.3262076)#
+# results <- results[results $RT < 6288, ]#
+# results[results $RT > 6287, ]#
+par(family = tfamily)#
+plot(results$RT, pch=16, cex=0.5, col='darkblue')#
+plot(results$RT, typ='l', col='darkblue')
+results <- results[results $trialtype == 't', ]#
+#####################
+# ## remove extreme slow (6289.3262076)#
+# results <- results[results $RT < 6288, ]#
+# results[results $RT > 6287, ]#
+par(family = tfamily)#
+plot(results$RT, pch=16, cex=0.5, col='darkblue')#
+plot(results$RT, typ='l', col='darkblue')
+plot(sort(results$RT), pch=16, cex=0.6, col='darkblue')
+par(family = tfamily)#
+xtab <- xtabs( ~ resp, data = results)#
+barplot(xtab)
+summary(results$RT)#
+range(results$RT)#
+range(results$RT)*1.1
+RTs#
+par(mfrow= tiles, mar=c(1.9, 2, 2, 0.5), cex=0.4, family = tfamily)#
+for (s in subjs) {#
+	s.result <- results[ results$workerID == s, ]#
+	print(dim(s.result)[1])#
+	plot(s.result$RT, main=s, ylim=c(-200, 7700), typ='l', col='darkblue')#
+}
+C#
+par(mfrow= tiles, mar=c(1.9, 2, 2, 0.5), cex=0.5, family = tfamily)#
+for (s in subjs) {#
+	s.result <- results[ results$workerID == s, ]#
+	xtab <- xtabs( ~ respC, data = s.result)#
+	barplot(xtab, ylim=c(0, 280), main=s)#
+	print(xtab)#
+}
+head(s.result)
+C1#
+par(mfrow= tiles, mar=c(1.9, 2, 2, 0.5), cex=0.5, family = tfamily)#
+for (s in subjs) {#
+	s.result <- results[ results$workerID == s, ]#
+	xtab <- xtabs( ~ respC1, data = s.result)#
+	barplot(xtab, ylim=c(0, 280), main=s)#
+	print(xtab)#
+}
+C1#
+par(mfrow= tiles, mar=c(1.9, 2, 2, 0.5), cex=0.5, family = tfamily)#
+for (s in subjs) {#
+	s.result <- results[ results$workerID == s, ]#
+	xtab <- xtabs( ~ respC1, data = s.result)#
+	barplot(xtab, ylim=c(0, 100), main=s)#
+	print(xtab)#
+}
+C2#
+par(mfrow= tiles, mar=c(1.9, 2, 2, 0.5), cex=0.5, family = tfamily)#
+for (s in subjs) {#
+	s.result <- results[ results$workerID == s, ]#
+	xtab <- xtabs( ~ respC2, data = s.result)#
+	barplot(xtab, ylim=c(0, 100), main=s)#
+	print(xtab)#
+}
+percentNoResp <- NULL#
+par(mfrow= tiles, mar=c(1.9, 2, 2, 0.5), cex=0.5, family = tfamily)#
+for (s in subjs) {#
+	s.result <- results[ results$workerID == s, ]#
+	xtab <- xtabs( ~ resp, data = s.result)#
+	barplot(xtab, ylim=c(0, 100), main=s)#
+	# print(xtab)#
+	noResp <- xtab['NULL'] / sum(xtab) * 100#
+	percentNoResp <- c(percentNoResp, noResp)#
+	print(s)#
+	print(noResp)#
+}
+percent no response#
+par(mar=c(10, 6, 2, 1), family = tfamily, cex=0.48)#
+barplot(percentNoResp, names.arg=subjs, ylim=c(0,15), las=2, space=0.2, legend.text=FALSE)#
+abline(mean(percentNoResp), 0, col='red')#
+abline(median(percentNoResp), 0, col='blue')
+percent no response#
+par(mar=c(10, 6, 2, 1), family = tfamily, cex=0.48)#
+barplot(percentNoResp, names.arg=subjs, ylim=c(0,15), las=2, space=0.2, legend.text=FALSE)#
+abline(mean(percentNoResp), 0, col='red')#
+abline(median(percentNoResp), 0, col='blue')
+percent no response#
+par(mar=c(10, 6, 2, 1), family = tfamily, cex=0.48)#
+barplot(percentNoResp, names.arg=subjs, ylim=c(0, 25), las=2, space=0.2, legend.text=FALSE)#
+abline(mean(percentNoResp), 0, col='red')#
+abline(median(percentNoResp), 0, col='blue')
+percent no response#
+par(mar=c(10, 6, 2, 1), family = tfamily, cex=0.48)#
+barplot(percentNoResp, names.arg=subjs, ylim=c(0, 50), las=2, space=0.2, legend.text=FALSE)#
+abline(mean(percentNoResp), 0, col='red')#
+abline(median(percentNoResp), 0, col='blue')
+percent no response#
+par(mar=c(10, 6, 2, 1), family = tfamily, cex=0.48)#
+barplot(percentNoResp, names.arg=subjs, ylim=c(0, 70), las=2, space=0.2, legend.text=FALSE)#
+abline(mean(percentNoResp), 0, col='red')#
+abline(median(percentNoResp), 0, col='blue')
+percent no response#
+par(mar=c(10, 6, 2, 1), family = tfamily, cex=0.48)#
+barplot(percentNoResp, names.arg=subjs, ylim=c(0, 60), las=2, space=0.2, legend.text=FALSE)#
+abline(mean(percentNoResp), 0, col='red')#
+abline(median(percentNoResp), 0, col='blue')
+percent no response#
+par(mar=c(10, 6, 2, 1), family = tfamily, cex=0.48)#
+barplot(percentNoResp, names.arg=subjs, ylim=c(0, 55), las=2, space=0.2, legend.text=FALSE)#
+abline(mean(percentNoResp), 0, col='red')#
+abline(median(percentNoResp), 0, col='blue')
+percent no response#
+par(mar=c(10, 6, 2, 1), family = tfamily, cex=0.48)#
+barplot(percentNoResp, names.arg=subjs, ylim=c(0, 56), las=2, space=0.2, legend.text=FALSE)#
+abline(mean(percentNoResp), 0, col='red')#
+abline(median(percentNoResp), 0, col='blue')
+percent no response#
+par(mar=c(10, 6, 2, 1), family = tfamily, cex=0.48)#
+barplot(percentNoResp, names.arg=subjs, ylim=c(0, 57), las=2, space=0.2, legend.text=FALSE)#
+abline(mean(percentNoResp), 0, col='red')#
+abline(median(percentNoResp), 0, col='blue')
+percent no response#
+par(mar=c(10, 6, 2, 1), family = tfamily, cex=0.48)#
+barplot(percentNoResp, names.arg=subjs, ylim=c(0, 55), las=2, space=0.2, legend.text=FALSE)#
+abline(mean(percentNoResp), 0, col='red')#
+abline(median(percentNoResp), 0, col='blue')
+? barplot
+percent no response#
+par(mar=c(10, 6, 2, 1), family = tfamily, cex=0.48)#
+barplot(percentNoResp, names.arg=subjs, ylim=c(0, 55), las=2, space=0.2, legend.text=FALSE, horiz = TRUE)#
+abline(mean(percentNoResp), 0, col='red')#
+abline(median(percentNoResp), 0, col='blue')
+percent no response#
+par(mar=c(1, 1, 2, 1), family = tfamily, cex=0.48)#
+barplot(percentNoResp, names.arg=subjs, ylim=c(0, 55), las=2, space=0.2, legend.text=FALSE, horiz = TRUE)#
+abline(mean(percentNoResp), 0, col='red')#
+abline(median(percentNoResp), 0, col='blue')
+percent no response#
+par(mar=c(9, 1, 2, 1), family = tfamily, cex=0.48)#
+barplot(percentNoResp, names.arg=subjs, ylim=c(0, 55), las=2, space=0.2, legend.text=FALSE, horiz = TRUE)#
+abline(mean(percentNoResp), 0, col='red')#
+abline(median(percentNoResp), 0, col='blue')
+percent no response#
+par(mar=c(1, 9, 2, 1), family = tfamily, cex=0.48)#
+barplot(percentNoResp, names.arg=subjs, ylim=c(0, 55), las=2, space=0.2, legend.text=FALSE, horiz = TRUE)#
+abline(mean(percentNoResp), 0, col='red')#
+abline(median(percentNoResp), 0, col='blue')
+percent no response#
+par(mar=c(1, 11, 5, 1), family = tfamily, cex=0.48)#
+barplot(percentNoResp, names.arg=subjs, ylim=c(0, 55), las=2, space=0.2, legend.text=FALSE, horiz = TRUE)#
+# abline(mean(percentNoResp), 0, col='red')#
+# abline(median(percentNoResp), 0, col='blue')
+percent no response#
+par(mar=c(1, 11, 11, 1), family = tfamily, cex=0.48)#
+barplot(percentNoResp, names.arg=subjs, ylim=c(0, 55), las=2, space=0.2, legend.text=FALSE, horiz = TRUE)#
+# abline(mean(percentNoResp), 0, col='red')#
+# abline(median(percentNoResp), 0, col='blue')
+percent no response#
+par(mar=c(2, 11, 11, 1), family = tfamily, cex=0.48)#
+barplot(percentNoResp, names.arg=subjs, ylim=c(0, 55), las=2, space=0.2, legend.text=FALSE, horiz = TRUE)#
+# abline(mean(percentNoResp), 0, col='red')#
+# abline(median(percentNoResp), 0, col='blue')
+percent no response#
+par(mar=c(2, 11, 15, 1), family = tfamily, cex=0.48)#
+barplot(percentNoResp, names.arg=subjs, ylim=c(0, 55), las=2, space=0.2, legend.text=FALSE, horiz = TRUE)#
+# abline(mean(percentNoResp), 0, col='red')#
+# abline(median(percentNoResp), 0, col='blue')
+percent no response#
+par(family = tfamily, cex=0.48)#
+barplot(percentNoResp, names.arg=subjs, ylim=c(0, 55), las=2, space=0.2, legend.text=FALSE, horiz = TRUE)#
+# abline(mean(percentNoResp), 0, col='red')#
+# abline(median(percentNoResp), 0, col='blue')
+percent no response#
+par(family = tfamily, cex=0.48)#
+barplot(percentNoResp, names.arg=subjs, ylim=c(0, 55), las=2, space=0.2, legend.text=FALSE, horiz = TRUE)#
+# abline(mean(percentNoResp), 0, col='red')#
+# abline(median(percentNoResp), 0, col='blue')
+percent no response#
+par(mar=c(2, 11, 15, 1), family = tfamily, cex=0.48)#
+barplot(percentNoResp, names.arg=subjs, ylim=c(0, 55), las=2, space=0.2, legend.text=FALSE, horiz = TRUE)#
+# abline(mean(percentNoResp), 0, col='red')#
+# abline(median(percentNoResp), 0, col='blue')
+percent no response#
+par(mar=c(5, 11, 25, 1), family = tfamily, cex=0.48)#
+barplot(percentNoResp, names.arg=subjs, ylim=c(0, 55), las=2, space=0.2, legend.text=FALSE, horiz = TRUE)#
+# abline(mean(percentNoResp), 0, col='red')#
+# abline(median(percentNoResp), 0, col='blue')
+percent no response#
+par(mar=c(5, 11, 15, 1), family = tfamily, cex=0.48)#
+barplot(percentNoResp, names.arg=subjs, ylim=c(0, 55), las=2, space=0.2, legend.text=FALSE, horiz = TRUE)#
+# abline(mean(percentNoResp), 0, col='red')#
+# abline(median(percentNoResp), 0, col='blue')
+percent no response#
+par(mar=c(5, 11, 18, 1), family = tfamily, cex=0.48)#
+barplot(percentNoResp, names.arg=subjs, ylim=c(0, 55), las=2, space=0.2, legend.text=FALSE, horiz = TRUE)#
+# abline(mean(percentNoResp), 0, col='red')#
+# abline(median(percentNoResp), 0, col='blue')
+percent no response#
+par(mar=c(5, 11, 17, 1), family = tfamily, cex=0.48)#
+barplot(percentNoResp, names.arg=subjs, ylim=c(0, 55), las=2, space=0.2, legend.text=FALSE, horiz = TRUE, las=2)#
+# abline(mean(percentNoResp), 0, col='red')#
+# abline(median(percentNoResp), 0, col='blue')
+percent no response#
+par(mar=c(5, 11, 17, 1), family = tfamily, cex=0.48)#
+barplot(percentNoResp, names.arg=subjs, ylim=c(0, 55), las=2, space=0.2, legend.text=FALSE, horiz = TRUE, las=1)#
+# abline(mean(percentNoResp), 0, col='red')#
+# abline(median(percentNoResp), 0, col='blue')
+percent no response#
+par(mar=c(5, 11, 17, 1), family = tfamily, cex=0.45)#
+barplot(percentNoResp, names.arg=subjs, ylim=c(0, 55), las=2, space=0.2, legend.text=FALSE, horiz = TRUE, las=1)#
+# abline(mean(percentNoResp), 0, col='red')#
+# abline(median(percentNoResp), 0, col='blue')
+percent no response#
+par(mar=c(5, 11, 17, 1), family = tfamily, cex=0.45)#
+barplot(percentNoResp, names.arg=subjs, ylim=c(0, 55), las=2, space=0.2, legend.text=FALSE, horiz = TRUE, las=1)#
+# abline(mean(percentNoResp), 0, col='red')#
+# abline(median(percentNoResp), 0, col='blue')
+percent no response#
+par(mar=c(5, 11, 18, 1), family = tfamily, cex=0.45)#
+barplot(percentNoResp, names.arg=subjs, ylim=c(0, 55), las=2, space=0.2, legend.text=FALSE, horiz = TRUE, las=1)#
+# abline(mean(percentNoResp), 0, col='red')#
+# abline(median(percentNoResp), 0, col='blue')
+percent no response#
+par(mar=c(5, 11, 22, 1), family = tfamily, cex=0.45)#
+barplot(percentNoResp, names.arg=subjs, ylim=c(0, 55), las=2, space=0.2, legend.text=FALSE, horiz = TRUE, las=1)#
+# abline(mean(percentNoResp), 0, col='red')#
+# abline(median(percentNoResp), 0, col='blue')
+percent no response#
+par(mar=c(5, 11, 20, 1), family = tfamily, cex=0.45)#
+barplot(percentNoResp, names.arg=subjs, ylim=c(0, 55), las=2, space=0.2, legend.text=FALSE, horiz = TRUE, las=1)#
+# abline(mean(percentNoResp), 0, col='red')#
+# abline(median(percentNoResp), 0, col='blue')
+percent no response#
+par(mar=c(5, 11, 21, 1), family = tfamily, cex=0.45)#
+barplot(percentNoResp, names.arg=subjs, ylim=c(0, 55), las=2, space=0.2, legend.text=FALSE, horiz = TRUE, las=1)#
+# abline(mean(percentNoResp), 0, col='red')#
+# abline(median(percentNoResp), 0, col='blue')
+all responses#
+par(mar=c(8, 6, 2, 1), family = tfamily, cex=0.4)#
+xtab <- xtabs( ~ resp + workerID, data = results)#
+barplot(xtab, las=2, space=0.2, legend.text=TRUE)
+alotoftimeouts <- c(#
+                    'A194KANUT0CSBV'#
+)#
+resultsGood <- results#
+subjsGood   <- unique(resultsGood $workerID)
+resultsNoResponse <- resultsGood[resultsGood$resp == 'NULL', ]#
+dim(resultsNoResponse)
+resultsRespGood <- resultsGood[resultsGood$resp != 'NULL', ]#
+resultsRespGood $resp <- factor(resultsRespGood $resp)#
+dim(resultsRespGood)
+summary(resultsRespGood $RT)#
+par(family = tfamily)#
+plot(resultsRespGood $RT, pch=16, cex=0.1)#
+abline(225, 0, col='blue')#
+center <- mean(resultsRespGood $RT) * 0.5 + median(resultsRespGood $RT) * 0.5#
+abline(center, 0, col='red', lwd=2)#
+abline(3700, 0, col='black')#
+points(resultsRespGood $RT, pch=16, cex=0.5)
+plot(resultsRespGood $RT, typ='l')
+hist(resultsRespGood $RT)#
+hist(resultsRespGood $RT, breaks='Scott')#
+# hist(resultsRespGood $RT, breaks='FD')
+borders <- c(2, 2, 1.2, 1)#
+text.size <- 0.4#
+#
+par(mfrow=tiles, mar=borders, cex=text.size, family=tfamily)#
+for (s in subjsGood) {#
+	s.result <- resultsRespGood[ resultsRespGood $workerID == s, ]#
+	plot(s.result$RT, main=s, ylim=c(0, 4000), pch=16, cex=0.2)#
+	abline(225, 0, col='blue')#
+	abline(center, 0, col='red', lwd=2)#
+	points(s.result$RT, pch=16, cex=0.8)#
+	center <- mean(s.result$RT) * 0.5 + median(s.result$RT) * 0.5#
+	# print(dim(s.result))#
+}
+borders <- c(2, 2, 1.2, 1)#
+text.size <- 0.4#
+#
+par(mfrow=tiles, mar=borders, cex=text.size, family=tfamily)#
+for (s in subjsGood) {#
+	s.result <- resultsRespGood[ resultsRespGood $workerID == s, ]#
+	plot(s.result$RT, main=s, ylim=c(0, 4000), pch=16, cex=0.2)#
+	points(s.result$RT, pch=16, cex=0.8)#
+	center <- mean(s.result$RT) * 0.5 + median(s.result$RT) * 0.5#
+	abline(225, 0, col='blue')#
+	abline(center, 0, col='red', lwd=2)#
+s	# print(dim(s.result))#
+}
+par(mfrow=tiles, mar=borders, cex=text.size, family=tfamily)#
+for (s in subjsGood) {#
+	s.result <- resultsRespGood[ resultsRespGood $workerID == s, ]#
+	plot(s.result$RT, main=s, ylim=c(0, 4000), pch=16, cex=0.2)#
+	points(s.result$RT, pch=16, cex=0.8)#
+	center <- mean(s.result$RT) * 0.5 + median(s.result$RT) * 0.5#
+	abline(225, 0, col='blue')#
+	abline(center, 0, col='red', lwd=2)#
+	print(s)#
+	print(center)#
+}
+alotoftimeouts <- c('A194KANUT0CSBV')#
+resultsGood <- results[!(results $workerID %in% alotoftimeouts), ]#
+resultsGood $workerID <- factor(resultsGood $workerID)#
+subjsGood   <- unique(resultsGood $workerID)
+exclude no response#
+##############################################
+resultsNoResponse <- resultsGood[resultsGood$resp == 'NULL', ]#
+dim(resultsNoResponse)#
+resultsRespGood <- resultsGood[resultsGood$resp != 'NULL', ]#
+resultsRespGood $resp <- factor(resultsRespGood $resp)#
+dim(resultsRespGood)
+summary(resultsRespGood $RT)#
+par(family = tfamily)#
+plot(resultsRespGood $RT, pch=16, cex=0.1)#
+abline(225, 0, col='blue')#
+center <- mean(resultsRespGood $RT) * 0.5 + median(resultsRespGood $RT) * 0.5#
+abline(center, 0, col='red', lwd=2)#
+abline(3700, 0, col='black')#
+points(resultsRespGood $RT, pch=16, cex=0.5)#
+#
+plot(resultsRespGood $RT, typ='l')
+hist(resultsRespGood $RT)#
+hist(resultsRespGood $RT, breaks='Scott')#
+# hist(resultsRespGood $RT, breaks='FD')
+borders <- c(2, 2, 1.2, 1)#
+text.size <- 0.4#
+#
+par(mfrow=tiles, mar=borders, cex=text.size, family=tfamily)#
+for (s in subjsGood) {#
+	s.result <- resultsRespGood[ resultsRespGood $workerID == s, ]#
+	plot(s.result$RT, main=s, ylim=c(0, 4000), pch=16, cex=0.2)#
+	points(s.result$RT, pch=16, cex=0.8)#
+	center <- mean(s.result$RT) * 0.5 + median(s.result$RT) * 0.5#
+	abline(225, 0, col='blue')#
+	abline(center, 0, col='red', lwd=2)#
+	print(s)#
+	print(center)#
+}
+toofast <- c('A2DZ3OFTXRZVNY')#
+resultsRespGood <- resultsRespGood[!(resultsRespGood $workerID %in% toofast), ]#
+resultsRespGood $workerID <- factor(resultsRespGood $workerID)#
+subjsGood   <- unique(resultsRespGood $workerID)
+par(family = tfamily)#
+plot(resultsRespGood $RT, pch=16, cex=0.1)#
+abline(225, 0, col='blue')#
+center <- mean(resultsRespGood $RT) * 0.5 + median(resultsRespGood $RT) * 0.5#
+abline(center, 0, col='red', lwd=2)#
+abline(3700, 0, col='black')#
+points(resultsRespGood $RT, pch=16, cex=0.5)#
+#
+plot(resultsRespGood $RT, typ='l')
+borders <- c(2, 2, 1.2, 1)#
+text.size <- 0.4#
+#
+par(mfrow=tiles, mar=borders, cex=text.size, family=tfamily)#
+for (s in subjsGood) {#
+	s.result <- resultsRespGood[ resultsRespGood $workerID == s, ]#
+	plot(s.result$RT, main=s, ylim=c(0, 4000), pch=16, cex=0.2)#
+	points(s.result$RT, pch=16, cex=0.8)#
+	center <- mean(s.result$RT) * 0.5 + median(s.result$RT) * 0.5#
+	abline(225, 0, col='blue')#
+	abline(center, 0, col='red', lwd=2)#
+	print(s)#
+	print(center)#
+}
+toofast <- c('A2DZ3OFTXRZVNY', 'A3HZ31VAGTVQMQ')#
+resultsRespGood <- resultsRespGood[!(resultsRespGood $workerID %in% toofast), ]#
+resultsRespGood $workerID <- factor(resultsRespGood $workerID)#
+subjsGood   <- unique(resultsRespGood $workerID)
+borders <- c(2, 2, 1.2, 1)#
+text.size <- 0.4#
+#
+par(mfrow=tiles, mar=borders, cex=text.size, family=tfamily)#
+for (s in subjsGood) {#
+	s.result <- resultsRespGood[ resultsRespGood $workerID == s, ]#
+	plot(s.result$RT, main=s, ylim=c(0, 4000), pch=16, cex=0.2)#
+	points(s.result$RT, pch=16, cex=0.8)#
+	center <- mean(s.result$RT) * 0.5 + median(s.result$RT) * 0.5#
+	abline(225, 0, col='blue')#
+	abline(center, 0, col='red', lwd=2)#
+	print(s)#
+	print(center)#
+}
+responses <- resultsRespGood[resultsRespGood$RT > 300, ]#
+responses$RTlog <- log(responses$RT)#
+summary(responses $RT)#
+summary(responses $RTlog)
+par(family = tfamily)#
+plot(responses $RTlog, pch=16, cex=0.4)#
+abline(log(225), 0, col='blue')#
+center <- mean(responses $RTlog) * 0.5 + median(responses $RTlog) * 0.5#
+abline(center, 0, col='red', lwd=2)
+plot(responses $RTlog, typ='l')
+hist(responses $RT)
+hist(responses $RT, breaks='Scott')
+hist(responses $RTlog)
+hist(responses $RTlog, breaks='Scott')
+par(mfrow=tiles, mar=borders, cex=text.size, family=tfamily)#
+for (s in subjsGood) {#
+	s.result <- responses[ responses $workerID == s, ]#
+	plot(s.result$RTlog, main=s, ylim=c(5, 8.5), pch=16, cex=0.5)#
+	# plot(s.result$RTlog, main=s, xlim=c(0, 212), ylim=c(4, 7.9), typ='l')#
+	abline(log(225), 0, col='blue')#
+	center <- mean(s.result$RTlog) * 0.5 + median(s.result$RTlog) * 0.5#
+	abline(center, 0, col='red', lwd=2)#
+	print(dim(s.result))#
+}
+borders <- c(2, 2, 1.2, 1)#
+text.size <- 0.4#
+par(mfrow=tiles, mar=borders, cex=text.size, family=tfamily)#
+for (s in subjsGood) {#
+	s.result <- resultsRespGood[ resultsRespGood $workerID == s, ]#
+	plot(s.result$RT, main=s, ylim=c(0, 4000), pch=16, cex=0.2)#
+	points(s.result$RT, pch=16, cex=0.8)#
+	center <- mean(s.result$RT) * 0.5 + median(s.result$RT) * 0.5#
+	abline(225, 0, col='blue')#
+	abline(center, 0, col='red', lwd=2)#
+	print(s)#
+	print(center)#
+}
+toofast <- c('A2DZ3OFTXRZVNY', 'A3HZ31VAGTVQMQ', 'ACIHCWKHNFC7U')#
+resultsRespGood <- resultsRespGood[!(resultsRespGood $workerID %in% toofast), ]#
+resultsRespGood $workerID <- factor(resultsRespGood $workerID)#
+subjsGood   <- unique(resultsRespGood $workerID)
+exclude faster than 200ms & practice items#
+##############################################
+responses <- resultsRespGood[resultsRespGood$RT > 300, ]#
+responses$RTlog <- log(responses$RT)#
+summary(responses $RT)#
+summary(responses $RTlog)#
+par(family = tfamily)#
+plot(responses $RTlog, pch=16, cex=0.4)#
+abline(log(225), 0, col='blue')#
+center <- mean(responses $RTlog) * 0.5 + median(responses $RTlog) * 0.5#
+abline(center, 0, col='red', lwd=2)#
+plot(responses $RTlog, typ='l')#
+hist(responses $RT)#
+hist(responses $RT, breaks='Scott')#
+# hist(responses $RT, breaks='FD')
+hist(responses $RTlog)
+hist(responses $RTlog, breaks='Scott')
+par(mfrow=tiles, mar=borders, cex=text.size, family=tfamily)#
+for (s in subjsGood) {#
+	s.result <- responses[ responses $workerID == s, ]#
+	plot(s.result$RTlog, main=s, ylim=c(5, 8.5), pch=16, cex=0.5)#
+	# plot(s.result$RTlog, main=s, xlim=c(0, 212), ylim=c(4, 7.9), typ='l')#
+	abline(log(225), 0, col='blue')#
+	center <- mean(s.result$RTlog) * 0.5 + median(s.result$RTlog) * 0.5#
+	abline(center, 0, col='red', lwd=2)#
+	print(dim(s.result))#
+}
+par(mfrow=tiles, mar=borders, cex=text.size, family=tfamily)#
+for (s in subjsGood) {#
+	s.result <- responses[ responses $workerID == s, ]#
+	hist(s.result$RTlog, breaks=seq(from=5, to=8.5, by=1/5), xlim=c(5,8.5), main=s)#
+	# hist(s.result$RTlog, breaks=seq(from=4, to=8, by=1/10), xlim=c(4,8), main=s)#
+	# hist(s.result$RTlog, breaks=seq(from=4, to=8, by=1/20), xlim=c(4,8), main=s)#
+}
+borders <- c(, 2.4, 2, 2.3)#
+par(mfrow= tiles, mar= borders, cex= text.size, family = tfamily)#
+for (s in subjsGood) {#
+	s.result <- responses[ responses $workerID == s, ]#
+	xtab <- xtabs( ~ resp, data = s.result)#
+	barplot(xtab, ylim=c(0, 100), main=s)#
+	print(xtab)#
+}
+head(responses)
+xlabel <- '1 [b] – [d] 17'#
+ylabel <- 'prop. ‘d’ resp.'#
+xlabelc <- '1 [b] – [d] 17'#
+ylabelc <- 'prop. ‘d’ resp.'#
+borders <- c(4.1,4.3,1.5,0.4)#
+#
+responses $dummy <- 1#
+#
+length(responses $respNumC1)#
+length(responses $respNumC2)#
+length(responses $dummy)
+par(mfrow=c(1,1), mar= borders, cex.lab=1.2, cex.axis=1.1, family = tfamily)#
+interaction.plot(responses$Vstep, responses $dummy, responses $respNumC1, xlab=xlabel, ylab=ylabel, legend=FALSE, ylim=c(0, 1), main='pooled', lwd=2.3)#
+vm   <- tapply(responses $respNumV, responses $stepV, mean)#
+vsd  <- tapply(responses $respNumV, responses $stepV, sd)#
+vsem <- vsd / sqrt( length(subjsGood) ) ##* 1.96#
+errbar( c(1:length(vm)), vm, vm + vsem, vm - vsem, add=TRUE, pch="")
+par(mfrow=c(1,1), mar= borders, cex.lab=1.2, cex.axis=1.1, family = tfamily)#
+interaction.plot(responses$Vstep, responses $dummy, responses $respNumC1, xlab=xlabel, ylab=ylabel, legend=FALSE, ylim=c(0, 1), main='pooled', lwd=2.3)#
+vm   <- tapply(responses $respNumC1, responses $stepV, mean)#
+vsd  <- tapply(responses $respNumC1, responses $stepV, sd)#
+vsem <- vsd / sqrt( length(subjsGood) ) ##* 1.96#
+errbar( c(1:length(vm)), vm, vm + vsem, vm - vsem, add=TRUE, pch="")
+par(mfrow=c(1,1), mar= borders, cex.lab=1.2, cex.axis=1.1, family = tfamily)#
+interaction.plot(responses$Vstep, responses $dummy, responses $respNumC1, xlab=xlabel, ylab=ylabel, legend=FALSE, ylim=c(0, 1), main='pooled', lwd=2.3)#
+vm   <- tapply(responses $respNumC1, responses $Vstep, mean)#
+vsd  <- tapply(responses $respNumC1, responses $Vstep, sd)#
+vsem <- vsd / sqrt( length(subjsGood) ) ##* 1.96#
+errbar( c(1:length(vm)), vm, vm + vsem, vm - vsem, add=TRUE, pch="")
+borders <- c(4, 4, 1.2, 0.3)#
+text.size <- 0.35#
+par(mfrow= tiles, mar= borders, cex= text.size, family = tfamily)#
+for (s in subjsGood) {#
+	s.result <- responses[ responses $workerID == s, ]#
+	ccol <- 'darkblue'#
+	interaction.plot(s.result $Vstep, s.result $dummy, s.result $respNumC1, xlab=xlabel, ylab=ylabel, legend=FALSE, ylim=c(0, 1), main=s, lwd=2, col= ccol)#
+}
+% correct#
+##############################################
+head(responses)#
+#
+sort(unique(responses$Vstep ))#
+endpoints <- responses[responses$Vstep == 1 | responses$Vstep == 17, ]#
+endpoints$Vstep <- factor(endpoints$Vstep)#
+#
+endpoints$respC1 <- factor(endpoints$respC1)#
+endpoints$respC2 <- factor(endpoints$respC2)
+xtab <- xtabs( ~ respC1 + Vstep, data = endpoints)#
+xtab
+subjCorrect <- NULL#
+subjWrong   <- NULL#
+par(mfrow= tiles, mar= borders, cex= text.size, family = tfamily)#
+for (s in subjsGood) {#
+	s.result <- endpoints[ endpoints $workerID == s, ]#
+	xtab <- xtabs( ~ respC1 + Vstep, data = s.result)#
+	totalb <- sum(xtab[ , 1])#
+	correctb <- xtab['B', 1] #
+	totald <- sum(xtab[ , 2])#
+	correctd <- xtab['D', 2] #
+	total          <- totalb + totald#
+	totalcorrect   <- correctb + correctd#
+	percentcorrect <- totalcorrect / total * 100#
+	percentcorrectb <- correctb / totalb * 100#
+	percentcorrectd <- correctd / totald * 100#
+	print(s)#
+	# print( percentcorrect )#
+	print( xtab )#
+	barplot( percentcorrect, ylim=c(0, 100), main=s)#
+	if (percentcorrectb > 70 & percentcorrectd > 70 ) {#
+		subjCorrect <- c(subjCorrect, s)#
+	} else {subjWrong <- c(subjWrong, s)}#
+}#
+length(subjCorrect)#
+length(subjWrong)
+tiles <- c(7, 8)#
+borders <- c(4, 4, 1.2, 0.3)#
+#
+text.size <- 0.35#
+## correct#
+par(mfrow= tiles, mar= borders, cex= text.size, family = tfamily)#
+for (s in subjCorrect) {#
+	s.result <- responses[ responses $workerID == s, ]#
+	ccol <- 'darkblue'#
+	interaction.plot(s.result $Vstep, s.result $dummy, s.result $respNumC1, xlab=xlabel, ylab=ylabel, legend=FALSE, ylim=c(0, 1), main=s, lwd=2, col= ccol)#
+}
+wrong#
+par(mfrow=c(5,4), mar= borders, cex= text.size, family = tfamily)#
+for (s in subjWrong) {#
+	s.result <- responses[ responses $workerID == s, ]#
+	ccol <- 'darkblue'#
+	interaction.plot(s.result $Vstep, s.result $dummy, s.result $respNumC1, xlab=xlabel, ylab=ylabel, legend=FALSE, ylim=c(0, 1), main=s, lwd=2, col= ccol)#
+}
+responsesCorrect <- responses[(responses$workerID %in% subjCorrect), ]#
+borders <- c(4.1,4.3,1.5,0.4)#
+par(mfrow=c(1,1), mar= borders, cex.lab=1.2, cex.axis=1.1, family = tfamily)#
+interaction.plot(responsesCorrect $Vstep, responsesCorrect $dummy, responsesCorrect $respNumC1, xlab=xlabel, ylab=ylabel, legend=FALSE, ylim=c(0, 1), main='pooled', lwd=2.3)#
+vm   <- tapply(responsesCorrect $respNumC1, responsesCorrect $Vstep, mean)#
+vsd  <- tapply(responsesCorrect $respNumC1, responsesCorrect $Vstep, sd)#
+vsem <- vsd / sqrt( length(subjCorrect) ) ##* 1.96#
+errbar( c(1:length(vm)), vm, vm + vsem, vm - vsem, add=TRUE, pch="")
+borders <- c(4.1,4.3,1.5,0.4)#
+par(mfrow=c(1,1), mar= borders, cex.lab=1.2, cex.axis=1.1, family = tfamily)#
+interaction.plot(responsesCorrect $Vstep, responsesCorrect $respC2, responsesCorrect $respNumC1, xlab=xlabel, ylab=ylabel, legend=TRUE, ylim=c(0, 1), main='pooled', lwd=2.3)
+73 + _ = 93
+borders <- c(4.1,4.3,1.5,0.4)#
+par(mfrow=c(1,1), mar= borders, cex.lab=1.2, cex.axis=1.1, family = tfamily)#
+interaction.plot(responsesCorrect $respC2, responsesCorrect $Vstep, responsesCorrect $respNumC1, xlab=xlabel, ylab=ylabel, legend=TRUE, ylim=c(0, 1), main='pooled', lwd=2.3)
+borders <- c(4.1,4.3,1.5,0.4)#
+par(mfrow=c(1,1), mar= borders, cex.lab=1.2, cex.axis=1.1, family = tfamily)#
+interaction.plot(responsesCorrect $Vstep, responsesCorrect $respC2, responsesCorrect $respNumC1, xlab=xlabel, ylab=ylabel, legend=TRUE, ylim=c(0, 1), main='pooled', lwd=2.3)
+borders <- c(4.1,4.3,1.5,0.4)#
+par(mfrow=c(1,1), mar= borders, cex.lab=1.2, cex.axis=1.1, family = tfamily)#
+interaction.plot(responsesCorrect $Vstep, responsesCorrect $respC1, responsesCorrect $respNumC2, xlab=xlabel, ylab='% r', legend=TRUE, ylim=c(0, 1), main='pooled', lwd=2.3)
+borders <- c(4.1,4.3,1.5,0.4)#
+par(mfrow=c(1,1), mar= borders, cex.lab=1.2, cex.axis=1.1, family = tfamily)#
+interaction.plot(responsesCorrect $Vstep, responsesCorrect $dummy, responsesCorrect $respNumC2, xlab=xlabel, ylab='% r', legend=TRUE, ylim=c(0, 1), main='pooled', lwd=2.3)
+borders <- c(4.1,4.3,1.5,0.4)#
+par(mfrow=c(1,1), mar= borders, cex.lab=1.2, cex.axis=1.1, family = tfamily)#
+interaction.plot(responsesCorrect $Vstep, responsesCorrect $respC1, responsesCorrect $respNumC2, xlab=xlabel, ylab='% r', legend=TRUE, ylim=c(0, 1), main='pooled', lwd=2.3)
+805*12
+10000 * 0.09
+100000 * 0.09
+72665.15 * 0.09
+0.48/0.0060
+1.26/0.0120
+1.19/0.0140
+0.96/0.0140
+1.67/0.0160
+4.00/0.0210
+4.18/0.0520
+0.3713+ 2.2359
+0.3713+ 2.2359+ 0.1114
+borders <- c(4.1,4.3,1.5,0.4)#
+par(mfrow=c(1,1), mar= borders, cex.lab=1.2, cex.axis=1.1, family = tfamily)#
+interaction.plot(responsesCorrect $Vstep, responsesCorrect $dummy, responsesCorrect $respNumC2, xlab=xlabel, ylab='% r', legend=TRUE, ylim=c(0, 1), main='pooled', lwd=2.3)
+head(responsesCorrect)#
+#
+responsesCorrect$respC1 <- factor(responsesCorrect$respC1)#
+#
+subsetC <- responsesCorrect[responsesCorrect$C == 'r', ]#
+borders <- c(4.1,4.3,1.5,0.4)#
+par(mfrow=c(1,2), mar= borders, cex.lab=1.2, cex.axis=1.1, family = tfamily)#
+interaction.plot(subsetC $Vstep, subsetC $dummy, subsetC $respNumC2, xlab=xlabel, ylab='% r', legend=TRUE, ylim=c(0, 1), main='pooled', lwd=2.3)
+subsetC <- responsesCorrect[responsesCorrect$C == 'r', ]#
+par(mfrow=c(1,2), mar= borders, cex.lab=1.2, cex.axis=1.1, family = tfamily)#
+interaction.plot(subsetC $Vstep, subsetC $respC1, subsetC $respNumC2, xlab=xlabel, ylab='% r', legend=TRUE, ylim=c(0, 1), main='pooled', lwd=2.3)#
+#
+subsetC <- responsesCorrect[responsesCorrect$C == 'r', ]#
+interaction.plot(subsetC $respC1, subsetC $respC2, subsetC $respNumC2, xlab=xlabel, ylab='% r', legend=TRUE, ylim=c(0, 1), main='pooled', lwd=2.3)
+borders <- c(4.1,4.3,1.5,0.4)#
+par(mfrow=c(1,1), mar= borders, cex.lab=1.2, cex.axis=1.1, family = tfamily)#
+interaction.plot(responsesCorrect $Vstep, responsesCorrect $dummy, responsesCorrect $respNumC2, xlab=xlabel, ylab='% r', legend=TRUE, ylim=c(0, 1), main='pooled', lwd=2.3)
+head(responsesCorrect)#
+#
+responsesCorrect$respC1 <- factor(responsesCorrect$respC1)#
+#
+subsetC <- responsesCorrect[responsesCorrect$C == 'r', ]#
+borders <- c(4.1,4.3,1.5,0.4)#
+par(mfrow=c(1,2), mar= borders, cex.lab=1.2, cex.axis=1.1, family = tfamily)#
+interaction.plot(subsetC $Vstep, subsetC $dummy, subsetC $respNumC2, xlab=xlabel, ylab='% r', legend=TRUE, ylim=c(0, 1), main='pooled', lwd=2.3)
+subsetC <- responsesCorrect[responsesCorrect$C == 'l', ]#
+par(mfrow=c(1,1), mar= borders, cex.lab=1.2, cex.axis=1.1, family = tfamily)#
+interaction.plot(subsetC $Vstep, subsetC $dummy, subsetC $respNumC2, xlab=xlabel, ylab='% r', legend=TRUE, ylim=c(0, 1), main='pooled', lwd=2.3)
+subsetC <- responsesCorrect[responsesCorrect$C == 'r', ]#
+borders <- c(4.1,4.3,1.5,0.4)#
+par(mfrow=c(1,2), mar= borders, cex.lab=1.2, cex.axis=1.1, family = tfamily)#
+interaction.plot(subsetC $Vstep, subsetC $dummy, subsetC $respNumC2, xlab=xlabel, ylab='% r', legend=TRUE, ylim=c(0, 1), main='pooled', lwd=2.3)

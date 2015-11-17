@@ -1,0 +1,32 @@
+ibid	ibub	ibud	
+ubud	idud	idub
+
+ibid	ibub	ibud
+udub	udid	ubid
+
+idib	idub	idud
+ubud	ibud	ibub
+
+idib	idub	idud
+udub	udib	ubib
+
+ubib	ubid	ubud
+idud	ibud	ibid
+
+ubib	ubid	ubud
+udid	udib	idib
+
+udib	udid	udub
+idub	ibub	ibid
+
+udib	udid	udub
+ubid	ubib	idib
+
+
+
+
+
+blbrdldr, blbrdrdl, bldlbrdr, bldldrbr, bldrbrdl, bldrdlbr,
+brbldldr, brbldrdl, brdlbldr, brdldrbl, brdrbldl, brdrdlbl,
+dlblbrdr, dlbldrbr, dlbrbldr, dlbrdrbl, dldrblbr, dldrbrbl, 
+drblbrdl, drbldlbr, drbrbldl, drbrdlbl, drdlblbr, drdlbrbl
